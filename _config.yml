@@ -1,0 +1,46 @@
+name: DroboPorts
+description: Cross-compiling and ready-to-use applications for the DroboFS and Drobo5N
+avatar: /images/droboports.png
+encoding: utf-8
+timezone: GMT+1
+
+footer-links:
+  dribbble: 
+  email: 
+  facebook: 
+  flattr: 177640/DroboPorts
+  flickr: 
+  github: droboports
+  gplus: +Droboports
+  instagram: 
+  linkedin: 
+  paypal: cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KYFBRYLKSGNKA
+  patreon: Droboports
+  pinterest: 
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+
+google_analytics: UA-21876405-1
+
+url: http://droboports.github.io
+baseurl: ""
+
+markdown: kramdown
+highlighter: pygments
+permalink: /app-repository/:title
+
+version: v2.4.0
+sass:
+  sass_dir: _scss
+  style: :expanded # You might prefer to minify using :compressed
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
