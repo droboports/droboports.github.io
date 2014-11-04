@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include recentapps.html %}
+
+<h3>How to use this site</h3>
+
+<p>This site is a repository of apps for owners of Drobo NAS devices, such as the DroboFS and the Drobo5N. Its primary audience is the heavy-duty Linux users, the kind that thinks package management is for newbies, but we also try to accomodate end-users as much as possible.</p>
+
+<p>In other words, what is offered here is the lowest level possible of instructions to get from the source code (of both application and libraries) all the way to packaging the binaries as DroboApps. This means also instructions on <a href="https://github.com/droboports/droboports.github.io/wiki/Setting-up-a-VM">how to setup the cross-compiling environment</a>.</p>
+
+<p>With that being said, not everyone has the time to start the procedure from scratch. Therefore, each DroboApp will have a "releases" page with links to ready-to-deploy packages and some additional instructions to install and configure each app.</p>
+
+<p>Most of the time, it is just a matter of downloading the TGZ file, copying it in the DroboApps share of your Drobo, and rebooting it.</p>
+
+<p>All the DroboApps are packaged in a way that makes them as ready-to-go as possible, and many will just work out-of-the-box without any further configuration. Additional configuration, if necessary, will be indicated in the releases' description.</p>
+
+<h3>What should I install on my Drobo5N/DroboFS?</h3>
+
+<p>It depends on what you want to do with it. If you are a command-line fellow, then start with <a href="https://github.com/droboports/openssh">OpenSSH</a>, <a href="https://github.com/droboports/bash">bash</a>, and <a href="https://github.com/droboports/wget">wget with SSL support</a>. After that have a look at the other command-line utilities. If you need to remote admin the Drobo, you might want to install <a href="https://github.com/droboports/openvpn">OpenVPN</a> and <a href="https://github.com/droboports/puppet">Puppet</a>. Developers will be interested in <a href="https://github.com/droboports/git">git</a>.</p>
+
+<p>Both the Drobo5N and the DroboFS make for pretty decent torrent/newsgroup downloader boxes. Have a look at <a href="https://github.com/droboports/rtorrent">rtorrent</a>, <a href="https://github.com/droboports/transmission">transmission</a> and <a href="https://github.com/droboports/nzbget">nzbget</a>. If you are thinking about automating your downloads, you'll probably also need <a href="https://github.com/droboports/lighttpd">Lighttpd</a>, <a href="https://github.com/droboports/php">PHP</a>, and <a href="https://github.com/droboports/python2">Python</a> (and some of the <a href="{{ site.baseurl }}/python-packages">Python packages</a> too). These are fairly large DroboApps and might be a little complicated to setup, so head on to the <a href="http://www.drobospace.com/forums/forumdisplay.php?fid=9">DroboSpace forums</a> to get some help.</p>
+
+<p>While the DroboFS is a pretty capable file/media server, the Drobo5N is an excellent choice. You can host your own content or blog using <a href="https://github.com/droboports/apache2">Apache</a> and <a href="https://github.com/droboports/mysql">MySQL</a> (use a Drobo5N for an optimal performance). If you want to access it over the internet, <a href="https://github.com/droboports/proftpd">ProFTPd</a> seems to be the best FTP server available. If you are in an Unix environment (*BSD, Linux, Mac OS X), you might want to get the kernel version of the <a href="https://github.com/droboports/nfs">NFS server</a>. If you are looking to stream media to TVs/DVD players/set-top boxes/Android devices, then <a href="https://github.com/droboports/minidlna">minidlna</a> is the app for you. Unfortunately, due to Apple's restrictive policies and DRM schemes, there isn't a good solution to serve Apple media (movies in particular) available so far.</p>
+
+<p>Finally, both the Drobo5N and the DroboFS are the perfect backup destinations. If you are a Linux user, then you might wanna pickup the latest <a href="https://github.com/droboports/rsync">rsync</a>. The <a href="https://github.com/droboports/crashplan">CrashPlan</a> client can backup your Drobo5N/FS to the cloud.</p>
+
+<h3>I need an app that is not here</h3>
+
+<p>Do you have an idea for a good DroboApp candidate? Then drop us a message on our <a href="https://plus.google.com/+Droboports">Google Plus page</a> or on our <a href="http://www.patreon.com/Droboports">Patreon page</a>. You can also hire us for consulting work on how to port your app to the DroboFS and Drobo5N.</p>

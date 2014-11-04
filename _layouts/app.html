@@ -2,11 +2,54 @@
 layout: default
 ---
 
-<article class="app">
-  
-  <h1>{{ page.title }}</h1>
+<h2>{{ page.title }}</h2>
 
-  <div class="entry">
-    {{ content }}
+<p>{{ page.description }}</p>
+
+{% assign repo = (site.data.repos | where: "name", page.appname | first) %}
+<a class="btn btn-primary" href="{{ repo.html_url }}">Github project</a>
+
+<h3>Drobo5N releases</h3>
+
+<div class="panel-group" id="accordion">
+  {% assign releases = (site.data[page.appname] | where: "target_commitish", "master") %}
+  {% for release in releases %}
+  {% assign asset = (release.assets | first) %}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}">{{ release.name }}</a>
+      </h4>
+    </div>
+    <div id="collapse{{ forloop.index }}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}">
+      <div class="panel-body">
+        <p>{{ release.body | markdownify }}</p>
+        <p>Size: {{ asset.size | divided_by: 1048576 }} MB</p>
+        <p class="text-right"><a class="btn btn-primary" href="{{ release.html_url }}">Github release</a> {% if asset.browser_download_url %}<a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a>{% endif %}</p>
+      </div>
+    </div>
   </div>
-</article>
+  {% endfor %}
+</div>
+
+<h3>DroboFS releases</h3>
+<div class="panel-group" id="accordion">
+  {% assign releases = (site.data[page.appname] | where: "target_commitish", "drobofs") %}
+  {% for release in releases %}
+  {% assign asset = (release.assets | first) %}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}">{{ release.name }}</a>
+      </h4>
+    </div>
+    <div id="collapse{{ forloop.index }}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}">
+      <div class="panel-body">
+        <p>{{ release.body | markdownify }}</p>
+        <p>Size: {{ asset.size | divided_by: 1048576 }} MB</p>
+        {% if asset.browser_download_url %}<p class="text-right"><a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a></p>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

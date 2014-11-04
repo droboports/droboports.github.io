@@ -44,3 +44,4 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - update.sh

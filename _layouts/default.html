@@ -1,46 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{{ site.description }}">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/stylesheets/stylesheet.css">
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="icon" href="{{ site.baseurl }}//favicon.ico" />
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/droboports.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" /></a>
-          <a id="forkme_banner" href="https://github.com/droboports">View on GitHub</a>-->
-          <h1 id="project_title">{{ site.name }}</h1>
-          <h2 id="project_tagline">{{ site.description }}</h2>
-        </header>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
+            <li class="dropdown"><a href="{{ site.baseurl }}/app-repository" class="dropdown-toggle" data-toggle="dropdown">App Repository <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ site.baseurl }}/app-repository">All apps</a></li>
+                <li class="divider"></li>
+                {% assign sorted_posts = (site.posts | sort: 'shorttitle') %}
+                {% for post in sorted_posts %}
+                  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li><a href="{{ site.baseurl }}/cross-tool-repository">Cross-tool Repository</a></li>
+            <li><a href="{{ site.baseurl }}/kernel-modules">Kernel modules</a></li>
+            <li><a href="{{ site.baseurl }}/python-packages">Python packages</a></li>
+            <li class="dropdown"><a href="https://github.com/droboports/droboports.github.io/wiki" class="dropdown-toggle" data-toggle="dropdown">Wiki <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">For Developers</li>
+                <li><a href="https://github.com/droboports/droboports.github.io/wiki/Setting-up-a-VM">Setting up a VM</a></li>
+                <li><a href="https://github.com/droboports/droboports.github.io/wiki/Toolchains">Toolchains</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">For End-users</li>
+                <li><a href="https://github.com/droboports/droboports.github.io/wiki/Using-command-line-apps">Using command-line apps</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="pull-right"><img class="img-rounded" width="200" src="{{ site.baseurl }}/images/droboports.png" /></div>
+        <h1>{{ site.name }}</h1>
+        <p>{{ site.description }}</p>
+        <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">
+          {% include leftcol.html %}
+        </div>
+        <div class="col-xs-6 col-sm-9">
+          {{ content }}
+       </div>
+      </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        {% include svg-icons.html %}
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+
+      <hr>
+
+      <footer>
         {% include disclaimer.html %}
       </footer>
-    </div>
+    </div> <!-- /container -->
 
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
     {% include analytics.html %}
   </body>
 </html>
+
