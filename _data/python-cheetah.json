@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083",
+    "assets_url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/python-cheetah/releases/593083/assets{?name}",
+    "html_url": "https://github.com/droboports/python-cheetah/releases/tag/v2.4.4",
+    "id": 593083,
+    "tag_name": "v2.4.4",
+    "target_commitish": "master",
+    "name": "Cheetah 2.4.4 for Drobo5N",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": false,
+    "created_at": "2014-09-30T14:05:16Z",
+    "published_at": "2014-10-02T14:48:43Z",
+    "assets": [
+      {
+        "url": "https://api.github.com/repos/droboports/python-cheetah/releases/assets/256698",
+        "id": 256698,
+        "name": "Cheetah-2.4.4-py2.7-linux-armv7l.egg",
+        "label": null,
+        "uploader": {
+          "login": "ricardopadilha",
+          "id": 1210756,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=2",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ricardopadilha",
+          "html_url": "https://github.com/ricardopadilha",
+          "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+          "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+          "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+          "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+          "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "content_type": "application/octet-stream",
+        "state": "uploaded",
+        "size": 406893,
+        "download_count": 16,
+        "created_at": "2014-10-02T14:48:38Z",
+        "updated_at": "2014-10-02T14:48:40Z",
+        "browser_download_url": "https://github.com/droboports/python-cheetah/releases/download/v2.4.4/Cheetah-2.4.4-py2.7-linux-armv7l.egg"
+      }
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/python-cheetah/tarball/v2.4.4",
+    "zipball_url": "https://api.github.com/repos/droboports/python-cheetah/zipball/v2.4.4",
+    "body": ""
+  }
+]

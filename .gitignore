@@ -7,7 +7,6 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
-_data
 
 ### Build directory tree ###
 *.tgz

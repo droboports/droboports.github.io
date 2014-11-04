@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://api.github.com/repos/droboports/python2/releases/593069",
+    "assets_url": "https://api.github.com/repos/droboports/python2/releases/593069/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/python2/releases/593069/assets{?name}",
+    "html_url": "https://github.com/droboports/python2/releases/tag/v2.7.8",
+    "id": 593069,
+    "tag_name": "v2.7.8",
+    "target_commitish": "master",
+    "name": "Python 2.7.8 for Drobo5N",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": false,
+    "created_at": "2014-09-30T13:59:35Z",
+    "published_at": "2014-09-30T14:12:09Z",
+    "assets": [
+      {
+        "url": "https://api.github.com/repos/droboports/python2/releases/assets/254053",
+        "id": 254053,
+        "name": "python2.tgz",
+        "label": null,
+        "uploader": {
+          "login": "ricardopadilha",
+          "id": 1210756,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=2",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ricardopadilha",
+          "html_url": "https://github.com/ricardopadilha",
+          "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+          "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+          "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+          "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+          "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "content_type": "application/octet-stream",
+        "state": "uploaded",
+        "size": 28276519,
+        "download_count": 21,
+        "created_at": "2014-09-30T14:11:16Z",
+        "updated_at": "2014-09-30T14:12:04Z",
+        "browser_download_url": "https://github.com/droboports/python2/releases/download/v2.7.8/python2.tgz"
+      }
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/python2/tarball/v2.7.8",
+    "zipball_url": "https://api.github.com/repos/droboports/python2/zipball/v2.7.8",
+    "body": ""
+  }
+]
