@@ -1,5 +1,7 @@
-<div class="row">
-{% if site.footer-links.patreon %}<div class="col-sm-6 col-md-4 col-lg-2"><p><a title="Become a Patreon" href="http://www.patreon.com/{{ site.footer-links.patreon }}">{% include svg-icons/patreon.html %}</a></p></div>{% endif %}
-{% if site.footer-links.flattr %}<div class="col-sm-6 col-md-4 col-lg-2"><p><a title="Flattr us" href="http://flattr.com/thing/{{ site.footer-links.flattr }}">{% include svg-icons/flattr.html %}</a></p></div>{% endif %}
-{% if site.footer-links.paypal %}<div class="col-sm-6 col-md-4 col-lg-2"><p><a title="Make a donation" href="https://www.paypal.com/{{ site.footer-links.paypal }}">{% include svg-icons/paypal.html %}</a></p></div>{% endif %}
+<div class="panel">
+<p class="text-center">
+{% if site.footer-links.patreon %}<a title="Become a Patreon" href="http://www.patreon.com/{{ site.footer-links.patreon }}">{% include svg-icons/patreon.html %}</a>{% endif %}
+{% if site.footer-links.flattr %}<a title="Flattr us" href="http://flattr.com/thing/{{ site.footer-links.flattr }}">{% include svg-icons/flattr.html %}</a>{% endif %}
+{% if site.footer-links.paypal %}<a title="Make a donation" href="https://www.paypal.com/{{ site.footer-links.paypal }}">{% include svg-icons/paypal.html %}</a>{% endif %}
+</p>
 </div>
