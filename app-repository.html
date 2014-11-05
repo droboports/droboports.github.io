@@ -1,0 +1,47 @@
+---
+layout: default
+title: App Repository
+permalink: /app-repository/
+---
+
+<h3>Drobo5N apps</h3>
+
+<div class="row">
+  {% assign sorted_posts = (site.posts | where: "layout", "app" | sort: "appname") %}
+  {% for post in sorted_posts %}
+  {% assign repo = (site.data.repos | where: "name", post.appname | first) %}
+  {% assign release = (site.data[repo.name] | where: "target_commitish", "master" | first) %}
+  {% if release %}
+  {% assign asset = (release.assets | first) %}
+  <div class="col-xs-6 col-sm-3">
+    <div class="well app">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+      {% if post.avatar %}<p class="text-center"><img class="img-rounded" height="64" src="{{post.avatar}}" /></p>{% endif %}
+      <p>{{ post.description }}</p>
+      {% if asset.browser_download_url %}<p class="text-right"><a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a></p>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<h3>DroboFS apps</h3>
+
+<div class="row">
+  {% assign sorted_posts = (site.posts | where: "layout", "app" | sort: "appname") %}
+  {% for post in sorted_posts %}
+  {% assign repo = (site.data.repos | where: "name", post.appname | first) %}
+  {% assign release = (site.data[repo.name] | where: "target_commitish", "drobofs" | first) %}
+  {% if release %}
+  {% assign asset = (release.assets | first) %}
+  <div class="col-xs-6 col-sm-3">
+    <div class="well app">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+      {% if post.avatar %}<p class="text-center"><img class="img-rounded" height="64" src="{{post.avatar}}" /></p>{% endif %}
+      <p>{{ post.description }}</p>
+      {% if asset.browser_download_url %}<p class="text-right"><a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a></p>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,32 +31,7 @@
           <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-            <li class="dropdown"><a href="{{ site.baseurl }}/app-repository" class="dropdown-toggle" data-toggle="dropdown">App Repository <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ site.baseurl }}/app-repository">All apps</a></li>
-                <li class="divider"></li>
-                {% assign sorted_posts = (site.posts | sort: 'shorttitle') %}
-                {% for post in sorted_posts %}
-                  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-            <li><a href="{{ site.baseurl }}/cross-tool-repository">Cross-tool Repository</a></li>
-            <li><a href="{{ site.baseurl }}/kernel-modules">Kernel modules</a></li>
-            <li><a href="{{ site.baseurl }}/python-packages">Python packages</a></li>
-            <li class="dropdown"><a href="https://github.com/droboports/droboports.github.io/wiki" class="dropdown-toggle" data-toggle="dropdown">Wiki <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li class="dropdown-header">For Developers</li>
-                <li><a href="https://github.com/droboports/droboports.github.io/wiki/Setting-up-a-VM">Setting up a VM</a></li>
-                <li><a href="https://github.com/droboports/droboports.github.io/wiki/Toolchains">Toolchains</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">For End-users</li>
-                <li><a href="https://github.com/droboports/droboports.github.io/wiki/Using-command-line-apps">Using command-line apps</a></li>
-              </ul>
-            </li>
-          </ul>
+          {% include navbar.html %}
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -72,17 +47,16 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-sm-3">
-          {% include leftcol.html %}
-        </div>
         <div class="col-xs-6 col-sm-9">
           {{ content }}
        </div>
+        <div class="col-xs-6 col-sm-3">
+          {% include column.html %}
+        </div>
       </div>
 
 
-      <hr>
-
+      <hr/>
       <footer>
         {% include disclaimer.html %}
       </footer>
