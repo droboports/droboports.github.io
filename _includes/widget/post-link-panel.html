@@ -1,0 +1,7 @@
+{% assign posts = include.posts %}
+
+<div class="row">
+  {% for post in posts limit:4 %}
+    {% include widget/post-link.html post=post %}
+  {% endfor %}
+</div>

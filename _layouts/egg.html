@@ -25,7 +25,7 @@ layout: default
     </div>
     <div id="collapse{{ release.id }}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}">
       <div class="panel-body">
-        <p>{{ release.body | markdownify }}</p>
+        {% if release.body %}<p>{{ release.body | markdownify }}</p>{% endif %}
         <p>Size: {% if asset.size > 1048576 %}{{ asset.size | divided_by: 1048576 }} MB{% else if asset.size > 1024 %}{{ asset.size | divided_by: 1024 }} KB{% else %}{{ asset.size }} KB{% endif %}</p>
         <p class="text-right"><a class="btn btn-primary" href="{{ release.html_url }}">Github release</a> {% if asset.browser_download_url %}<a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a>{% endif %}</p>
       </div>
@@ -55,7 +55,7 @@ layout: default
     </div>
     <div id="collapse{{ release.id }}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}">
       <div class="panel-body">
-        <p>{{ release.body | markdownify }}</p>
+        {% if release.body %}<p>{{ release.body | markdownify }}</p>{% endif %}
         <p>Size: {% if asset.size > 1048576 %}{{ asset.size | divided_by: 1048576 }} MB{% else if asset.size > 1024 %}{{ asset.size | divided_by: 1024 }} KB{% else %}{{ asset.size }} KB{% endif %}</p>
         <p class="text-right"><a class="btn btn-primary" href="{{ release.html_url }}">Github release</a> {% if asset.browser_download_url %}<a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a>{% endif %}</p>
       </div>

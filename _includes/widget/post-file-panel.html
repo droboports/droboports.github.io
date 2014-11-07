@@ -1,0 +1,15 @@
+{% assign posts = include.posts %}
+{% assign branch = include.branch %}
+
+{% assign postcount = (posts | size) %}
+<div class="panel">
+{% if postcount > 0 %}
+<div class="row">
+  {% for post in posts %}
+    {% include widget/post-file.html branch=branch post=post %}
+  {% endfor %}
+</div>
+{% else %}
+<p>There are no releases currently available.</p>
+{% endif %}
+</div>

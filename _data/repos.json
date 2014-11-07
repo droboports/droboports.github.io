@@ -86,8 +86,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -178,8 +178,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -270,8 +270,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -362,8 +362,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -454,8 +454,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -530,7 +530,7 @@
     "clone_url": "https://github.com/droboports/sabnzbd.git",
     "svn_url": "https://github.com/droboports/sabnzbd",
     "homepage": "",
-    "size": 156,
+    "size": 168,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "Shell",
@@ -546,8 +546,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -638,8 +638,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -730,8 +730,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -822,8 +822,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -914,8 +914,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1006,8 +1006,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1098,8 +1098,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1190,8 +1190,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1282,8 +1282,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1374,8 +1374,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1444,7 +1444,7 @@
     "releases_url": "https://api.github.com/repos/droboports/droboports.github.io/releases{/id}",
     "created_at": "2014-10-07T08:31:17Z",
     "updated_at": "2014-11-04T14:18:50Z",
-    "pushed_at": "2014-11-04T15:37:53Z",
+    "pushed_at": "2014-11-05T14:01:48Z",
     "git_url": "git://github.com/droboports/droboports.github.io.git",
     "ssh_url": "git@github.com:droboports/droboports.github.io.git",
     "clone_url": "https://github.com/droboports/droboports.github.io.git",
@@ -1466,8 +1466,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1542,7 +1542,7 @@
     "clone_url": "https://github.com/droboports/sickbeard.git",
     "svn_url": "https://github.com/droboports/sickbeard",
     "homepage": null,
-    "size": 144,
+    "size": 160,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "Shell",
@@ -1558,8 +1558,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1650,8 +1650,8 @@
     "watchers": 5,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1742,8 +1742,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -1834,8 +1834,192 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
+  },
+  {
+    "id": 26291704,
+    "name": "kernel-drobofs",
+    "full_name": "droboports/kernel-drobofs",
+    "owner": {
+      "login": "droboports",
+      "id": 7600105,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7600105?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/droboports",
+      "html_url": "https://github.com/droboports",
+      "followers_url": "https://api.github.com/users/droboports/followers",
+      "following_url": "https://api.github.com/users/droboports/following{/other_user}",
+      "gists_url": "https://api.github.com/users/droboports/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/droboports/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/droboports/subscriptions",
+      "organizations_url": "https://api.github.com/users/droboports/orgs",
+      "repos_url": "https://api.github.com/users/droboports/repos",
+      "events_url": "https://api.github.com/users/droboports/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/droboports/received_events",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/droboports/kernel-drobofs",
+    "description": "Kernel source code for the DroboFS",
+    "fork": false,
+    "url": "https://api.github.com/repos/droboports/kernel-drobofs",
+    "forks_url": "https://api.github.com/repos/droboports/kernel-drobofs/forks",
+    "keys_url": "https://api.github.com/repos/droboports/kernel-drobofs/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/droboports/kernel-drobofs/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/droboports/kernel-drobofs/teams",
+    "hooks_url": "https://api.github.com/repos/droboports/kernel-drobofs/hooks",
+    "issue_events_url": "https://api.github.com/repos/droboports/kernel-drobofs/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/droboports/kernel-drobofs/events",
+    "assignees_url": "https://api.github.com/repos/droboports/kernel-drobofs/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/droboports/kernel-drobofs/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/droboports/kernel-drobofs/tags",
+    "blobs_url": "https://api.github.com/repos/droboports/kernel-drobofs/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/droboports/kernel-drobofs/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/droboports/kernel-drobofs/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/droboports/kernel-drobofs/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/droboports/kernel-drobofs/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/droboports/kernel-drobofs/languages",
+    "stargazers_url": "https://api.github.com/repos/droboports/kernel-drobofs/stargazers",
+    "contributors_url": "https://api.github.com/repos/droboports/kernel-drobofs/contributors",
+    "subscribers_url": "https://api.github.com/repos/droboports/kernel-drobofs/subscribers",
+    "subscription_url": "https://api.github.com/repos/droboports/kernel-drobofs/subscription",
+    "commits_url": "https://api.github.com/repos/droboports/kernel-drobofs/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/droboports/kernel-drobofs/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/droboports/kernel-drobofs/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/droboports/kernel-drobofs/issues/comments/{number}",
+    "contents_url": "https://api.github.com/repos/droboports/kernel-drobofs/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/droboports/kernel-drobofs/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/droboports/kernel-drobofs/merges",
+    "archive_url": "https://api.github.com/repos/droboports/kernel-drobofs/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/droboports/kernel-drobofs/downloads",
+    "issues_url": "https://api.github.com/repos/droboports/kernel-drobofs/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/droboports/kernel-drobofs/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/droboports/kernel-drobofs/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/droboports/kernel-drobofs/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/droboports/kernel-drobofs/labels{/name}",
+    "releases_url": "https://api.github.com/repos/droboports/kernel-drobofs/releases{/id}",
+    "created_at": "2014-11-06T21:50:12Z",
+    "updated_at": "2014-11-07T08:44:37Z",
+    "pushed_at": "2014-11-07T09:29:26Z",
+    "git_url": "git://github.com/droboports/kernel-drobofs.git",
+    "ssh_url": "git@github.com:droboports/kernel-drobofs.git",
+    "clone_url": "https://github.com/droboports/kernel-drobofs.git",
+    "svn_url": "https://github.com/droboports/kernel-drobofs",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "C",
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
+  },
+  {
+    "id": 26311149,
+    "name": "kernel-drobo5n",
+    "full_name": "droboports/kernel-drobo5n",
+    "owner": {
+      "login": "droboports",
+      "id": 7600105,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7600105?v=2",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/droboports",
+      "html_url": "https://github.com/droboports",
+      "followers_url": "https://api.github.com/users/droboports/followers",
+      "following_url": "https://api.github.com/users/droboports/following{/other_user}",
+      "gists_url": "https://api.github.com/users/droboports/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/droboports/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/droboports/subscriptions",
+      "organizations_url": "https://api.github.com/users/droboports/orgs",
+      "repos_url": "https://api.github.com/users/droboports/repos",
+      "events_url": "https://api.github.com/users/droboports/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/droboports/received_events",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/droboports/kernel-drobo5n",
+    "description": "Kernel source code for the Drobo5N",
+    "fork": false,
+    "url": "https://api.github.com/repos/droboports/kernel-drobo5n",
+    "forks_url": "https://api.github.com/repos/droboports/kernel-drobo5n/forks",
+    "keys_url": "https://api.github.com/repos/droboports/kernel-drobo5n/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/droboports/kernel-drobo5n/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/droboports/kernel-drobo5n/teams",
+    "hooks_url": "https://api.github.com/repos/droboports/kernel-drobo5n/hooks",
+    "issue_events_url": "https://api.github.com/repos/droboports/kernel-drobo5n/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/droboports/kernel-drobo5n/events",
+    "assignees_url": "https://api.github.com/repos/droboports/kernel-drobo5n/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/droboports/kernel-drobo5n/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/droboports/kernel-drobo5n/tags",
+    "blobs_url": "https://api.github.com/repos/droboports/kernel-drobo5n/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/droboports/kernel-drobo5n/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/droboports/kernel-drobo5n/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/droboports/kernel-drobo5n/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/droboports/kernel-drobo5n/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/droboports/kernel-drobo5n/languages",
+    "stargazers_url": "https://api.github.com/repos/droboports/kernel-drobo5n/stargazers",
+    "contributors_url": "https://api.github.com/repos/droboports/kernel-drobo5n/contributors",
+    "subscribers_url": "https://api.github.com/repos/droboports/kernel-drobo5n/subscribers",
+    "subscription_url": "https://api.github.com/repos/droboports/kernel-drobo5n/subscription",
+    "commits_url": "https://api.github.com/repos/droboports/kernel-drobo5n/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/droboports/kernel-drobo5n/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/droboports/kernel-drobo5n/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/droboports/kernel-drobo5n/issues/comments/{number}",
+    "contents_url": "https://api.github.com/repos/droboports/kernel-drobo5n/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/droboports/kernel-drobo5n/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/droboports/kernel-drobo5n/merges",
+    "archive_url": "https://api.github.com/repos/droboports/kernel-drobo5n/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/droboports/kernel-drobo5n/downloads",
+    "issues_url": "https://api.github.com/repos/droboports/kernel-drobo5n/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/droboports/kernel-drobo5n/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/droboports/kernel-drobo5n/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/droboports/kernel-drobo5n/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/droboports/kernel-drobo5n/labels{/name}",
+    "releases_url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases{/id}",
+    "created_at": "2014-11-07T08:41:05Z",
+    "updated_at": "2014-11-07T08:54:18Z",
+    "pushed_at": "2014-11-07T09:29:59Z",
+    "git_url": "git://github.com/droboports/kernel-drobo5n.git",
+    "ssh_url": "git@github.com:droboports/kernel-drobo5n.git",
+    "clone_url": "https://github.com/droboports/kernel-drobo5n.git",
+    "svn_url": "https://github.com/droboports/kernel-drobo5n",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "C",
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
       "pull": true
     }
   }

@@ -10,7 +10,7 @@ In other words, I just really like my FS and 5N, and I want to make the most out
 
 For more DroboApps, check the [official DroboApp repository](http://www.drobo.com/drobo-solutions/drobo-apps/).
 
-For more unofficial DroboApps and other DroboFS tips, check [jhah's Drobo site](http://drobo.jhah.net/).</p>
+For more unofficial DroboApps and other DroboFS tips, check [jhah's Drobo site](http://drobo.jhah.net/).
 
 ### I need an app that is not here/I want to contact DroboPorts
 

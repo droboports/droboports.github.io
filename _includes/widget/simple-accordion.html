@@ -1,0 +1,15 @@
+{% assign accordion = include.accordion %}
+{% assign items = include.items %}
+
+{% assign itemcount = (items | size) %}
+{% if itemcount > 0 %}
+<div class="panel-group" id="{{ accordion }}">
+  {% for item in items %}
+    {% include widget/simple-panel.html accordion=accordion release=item active=forloop.first %}
+  {% endfor %}
+</div>
+{% else %}
+<div class="panel">
+  <p>There are no releases currently available.</p>
+</div>
+{% endif %}

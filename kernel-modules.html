@@ -1,0 +1,21 @@
+---
+layout: default
+title: Kernel modules
+permalink: /kernel-modules/
+---
+
+<h3>Kernel modules for Drobo5N</h3>
+
+{% assign repo = (site.data.repos | where: "name", "kernel-drobo5n" | first) %}
+<p class="text-right"><a class="btn btn-primary" href="{{ repo.html_url }}">Github project</a></p>
+
+{% assign releases = (site.data.kernel-drobo5n | where: "target_commitish", "master") %}
+{% include widget/simple-accordion.html accordion=accordion5n items=releases %}
+
+<h3>Kernel modules for DroboFS</h3>
+
+{% assign repo = (site.data.repos | where: "name", "kernel-drobofs" | first) %}
+<p class="text-right"><a class="btn btn-primary" href="{{ repo.html_url }}">Github project</a></p>
+
+{% assign releases = (site.data.kernel-drobofs | where: "target_commitish", "master") %}
+{% include widget/simple-accordion.html accordion=accordionfs items=releases %}

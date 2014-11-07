@@ -10,61 +10,11 @@ layout: default
 <p class="text-right"><a class="btn btn-primary" href="{{ repo.html_url }}">Github project</a> {% if page.website %}<a class="btn btn-success" href="{{ page.website }}">Website &raquo;</a>{% endif %}</p>
 
 <h3>Drobo5N releases</h3>
-{% assign releases = (site.data[page.appname] | where: "target_commitish", "master") %}
-{% assign relsize = (releases | size) %}
 
-{% if relsize > 0 %}
-<div class="panel-group" id="accordion5n">
-  {% for release in releases %}
-  {% assign asset = (release.assets | first) %}
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion5n" href="#collapse{{ release.id }}">{{ release.name }}</a>
-      </h4>
-    </div>
-    <div id="collapse{{ release.id }}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}">
-      <div class="panel-body">
-        <p>{{ release.body | markdownify }}</p>
-        <p>Size: {% if asset.size > 1048576 %}{{ asset.size | divided_by: 1048576 }} MB{% else if asset.size > 1024 %}{{ asset.size | divided_by: 1024 }} KB{% else %}{{ asset.size }} KB{% endif %}</p>
-        <p class="text-right"><a class="btn btn-primary" href="{{ release.html_url }}">Github release</a> {% if asset.browser_download_url %}<a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a>{% endif %}</p>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-{% else %}
-<div class="panel">
-  <p>There are no releases currently available.</p>
-</div>
-{% endif %}
+{% assign releases = (site.data[page.appname] | where: "target_commitish", "master") %}
+{% include widget/release-accordion.html accordion="accordion5n" items=releases %}
 
 <h3>DroboFS releases</h3>
-{% assign releases = (site.data[page.appname] | where: "target_commitish", "drobofs") %}
-{% assign relsize = (releases | size) %}
 
-{% if relsize > 0 %}
-<div class="panel-group" id="accordionfs">
-  {% for release in releases %}
-  {% assign asset = (release.assets | first) %}
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordionfs" href="#collapse{{ release.id }}">{{ release.name }}</a>
-      </h4>
-    </div>
-    <div id="collapse{{ release.id }}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}">
-      <div class="panel-body">
-        <p>{{ release.body | markdownify }}</p>
-        <p>Size: {% if asset.size > 1048576 %}{{ asset.size | divided_by: 1048576 }} MB{% else if asset.size > 1024 %}{{ asset.size | divided_by: 1024 }} KB{% else %}{{ asset.size }} KB{% endif %}</p>
-        <p class="text-right"><a class="btn btn-primary" href="{{ release.html_url }}">Github release</a> {% if asset.browser_download_url %}<a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a>{% endif %}</p>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-{% else %}
-<div class="panel">
-  <p>There are no releases currently available.</p>
-</div>
-{% endif %}
+{% assign releases = (site.data[page.appname] | where: "target_commitish", "drobofs") %}
+{% include widget/release-accordion.html accordion="accordionfs" items=releases %}

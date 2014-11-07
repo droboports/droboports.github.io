@@ -1,0 +1,19 @@
+{% assign accordion = include.accordion %}
+{% assign release = include.release %}
+{% assign active = include.active %}
+
+{% assign asset = (release.assets | first) %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#{{ accordion }}" href="#collapse{{ release.id }}">{{ release.name }}</a>
+    </h4>
+  </div>
+  <div id="collapse{{ release.id }}" class="panel-collapse collapse {% if active %}in{% endif %}">
+    <div class="panel-body">
+      <p>{{ release.body | markdownify }}</p>
+      {% if asset %}<p>Size: {% include format/bytevalue.html value=asset.size %}</p>{% endif %}
+      <p class="text-right"><a class="btn btn-primary" href="{{ release.html_url }}">Github release</a> {% if asset.browser_download_url %}<a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a>{% endif %}</p>
+    </div>
+  </div>
+</div>

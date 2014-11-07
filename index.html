@@ -2,7 +2,14 @@
 layout: default
 ---
 
-{% include recentapps.html %}
+<h3>Latest updates</h3>
+
+{% include widget/post-link-panel.html posts=site.posts %}
+
+<div class="panel">
+  <p>To receive notifications about the latest DroboApp releases and news, circle DroboPorts on <a href="https://plus.google.com/+Droboports">Google Plus</a>.</p>
+  <p class="text-right"><a class="btn btn-success" href="{{ site.baseurl }}/app-repository">See more &raquo;</a></p>
+</div>
 
 <h3>How to use this site</h3>
 

@@ -1,0 +1,11 @@
+{% assign name = include.name %}
+{% assign size = include.size %}
+{% assign url = include.url %}
+
+<div class="col-xs-6 col-sm-3">
+  <div class="well app">
+    <h4>{{ name }}</h4>
+    <p>Size: {% include format/bytevalue.html value=size %}</p>
+    <p class="text-right"><a class="btn btn-success" href="{{ url }}">Download &raquo;</a></p>
+  </div>
+</div>
