@@ -4,7 +4,7 @@
   <div class="well app">
     <h4>{{ post.title }}</h4>
     {% if post.avatar %}<p class="text-center"><img class="img-rounded" height="64" src="{{ post.avatar }}" /></p>{% endif %}
-    <p>{{ post.description }}</p>
+    <p class="oneline">{{ post.description }}</p>
     <p class="text-right"><a class="btn btn-success" href="{{ site.baseurl }}{{ post.url }}">See app &raquo;</a></p>
   </div>
 </div>

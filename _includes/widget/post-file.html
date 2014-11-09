@@ -9,7 +9,7 @@
   <div class="well app">
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     {% if include.post.avatar %}<p class="text-center"><img class="img-rounded" height="64" src="{{ post.avatar }}" /></p>{% endif %}
-    <p>{{ post.description }}</p>
+    <p class="oneline">{{ post.description }}</p>
     <p>Size: {% include format/bytevalue.html value=asset.size %}</p>
     <p class="text-right"><a class="btn btn-success" href="{{ asset.browser_download_url }}">Download &raquo;</a></p>
   </div>
