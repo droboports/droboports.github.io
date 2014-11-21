@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/crashplan/releases/657024",
-    "assets_url": "https://api.github.com/repos/droboports/crashplan/releases/657024/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/crashplan/releases/657024/assets{?name}",
-    "html_url": "https://github.com/droboports/crashplan/releases/tag/v3.6.4-fs",
-    "id": 657024,
-    "tag_name": "v3.6.4-fs",
+    "url": "https://api.github.com/repos/droboports/java8/releases/722768",
+    "assets_url": "https://api.github.com/repos/droboports/java8/releases/722768/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/722768/assets{?name}",
+    "html_url": "https://github.com/droboports/java8/releases/tag/v8.6-fs",
+    "id": 722768,
+    "tag_name": "v8.6-fs",
     "target_commitish": "drobofs",
-    "name": "CrashPlan 3.6.4 for DroboFS",
+    "name": "Java 8 update 6 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-10-27T17:52:50Z",
-    "published_at": "2014-10-27T17:59:12Z",
+    "created_at": "2014-11-21T08:58:25Z",
+    "published_at": "2014-11-21T09:02:11Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/crashplan/releases/assets/283664",
-        "id": 283664,
-        "name": "crashplan.tgz",
+        "url": "https://api.github.com/repos/droboports/java8/releases/assets/314198",
+        "id": 314198,
+        "name": "java8.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 21282481,
-        "download_count": 37,
-        "created_at": "2014-10-27T17:58:26Z",
-        "updated_at": "2014-10-27T17:58:51Z",
-        "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.6.4-fs/crashplan.tgz"
+        "size": 35647000,
+        "download_count": 0,
+        "created_at": "2014-11-21T09:01:02Z",
+        "updated_at": "2014-11-21T09:01:29Z",
+        "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.6-fs/java8.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/crashplan/tarball/v3.6.4-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/crashplan/zipball/v3.6.4-fs",
-    "body": "To configure the CrashPlan engine you have to install the software on your machine, and redirect the GUI to connect with the Drobo. To do this, you need to establish a port forward from your desktop to the Drobo. Something like this should do the trick:\r\n\r\n`ssh -L 4201:localhost:4243 root@drobo-fs`\r\n\r\nShort explanation: this forwards any connection attempts to port 4201 on your machine to port 4243 on the Drobo. Once this is done, you have to tell the CrashPlan client to connect to port 4201 instead of the default (4243). To do this on a Mac, edit the file `~/Library/Application Support/CrashPlan/ui.properties` and add this line:\r\n\r\n`servicePort=4201`\r\n\r\nSave the file, and start the app. It will ask for the credentials to be used on the Drobo. Once logged in, if the folder selection screen shows the path `/mnt/DroboFS/Shares`, then congratulations, you have CrashPlan on your Drobo.\r\n\r\nMore information about configuring a server over SSH can be found [here](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client)."
+    "tarball_url": "https://api.github.com/repos/droboports/java8/tarball/v8.6-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/java8/zipball/v8.6-fs",
+    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
   },
   {
-    "url": "https://api.github.com/repos/droboports/crashplan/releases/656907",
-    "assets_url": "https://api.github.com/repos/droboports/crashplan/releases/656907/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/crashplan/releases/656907/assets{?name}",
-    "html_url": "https://github.com/droboports/crashplan/releases/tag/v3.6.4",
-    "id": 656907,
-    "tag_name": "v3.6.4",
+    "url": "https://api.github.com/repos/droboports/java8/releases/720951",
+    "assets_url": "https://api.github.com/repos/droboports/java8/releases/720951/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/720951/assets{?name}",
+    "html_url": "https://github.com/droboports/java8/releases/tag/v8.6",
+    "id": 720951,
+    "tag_name": "v8.6",
     "target_commitish": "master",
-    "name": "CrashPlan 3.6.4 for Drobo5N",
+    "name": "Java 8 update 6 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-10-27T17:54:37Z",
-    "published_at": "2014-10-27T17:59:30Z",
+    "created_at": "2014-11-20T17:00:54Z",
+    "published_at": "2014-11-21T09:02:18Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/crashplan/releases/assets/283613",
-        "id": 283613,
-        "name": "crashplan.tgz",
+        "url": "https://api.github.com/repos/droboports/java8/releases/assets/313375",
+        "id": 313375,
+        "name": "java8.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 21284224,
-        "download_count": 154,
-        "created_at": "2014-10-27T17:24:56Z",
-        "updated_at": "2014-10-27T17:25:18Z",
-        "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.6.4/crashplan.tgz"
+        "size": 37769179,
+        "download_count": 0,
+        "created_at": "2014-11-20T17:04:13Z",
+        "updated_at": "2014-11-20T17:04:55Z",
+        "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.6/java8.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/crashplan/tarball/v3.6.4",
-    "zipball_url": "https://api.github.com/repos/droboports/crashplan/zipball/v3.6.4",
-    "body": "To configure the CrashPlan engine you have to install the software on your machine, and redirect the GUI to connect with the Drobo. To do this, you need to establish a port forward from your desktop to the Drobo. Something like this should do the trick:\r\n\r\n`ssh -L 4201:localhost:4243 root@drobo-5n`\r\n\r\nShort explanation: this forwards any connection attempts to port 4201 on your machine to port 4243 on the Drobo. Once this is done, you have to tell the CrashPlan client to connect to port 4201 instead of the default (4243). To do this on a Mac, edit the file `~/Library/Application Support/CrashPlan/ui.properties` and add this line:\r\n\r\n`servicePort=4201`\r\n\r\nSave the file, and start the app. It will ask for the credentials to be used on the Drobo. Once logged in, if the folder selection screen shows the path `/mnt/DroboFS/Shares`, then congratulations, you have CrashPlan on your Drobo.\r\n\r\nMore information about configuring a server over SSH can be found [here](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client)."
+    "tarball_url": "https://api.github.com/repos/droboports/java8/tarball/v8.6",
+    "zipball_url": "https://api.github.com/repos/droboports/java8/zipball/v8.6",
+    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
   }
 ]
