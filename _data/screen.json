@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/sabnzbd/releases/673943",
-    "assets_url": "https://api.github.com/repos/droboports/sabnzbd/releases/673943/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/sabnzbd/releases/673943/assets{?name}",
-    "html_url": "https://github.com/droboports/sabnzbd/releases/tag/v0.7.19",
-    "id": 673943,
-    "tag_name": "v0.7.19",
-    "target_commitish": "master",
-    "name": "SABnzbd 0.7.19 for Drobo5N",
+    "url": "https://api.github.com/repos/droboports/screen/releases/731958",
+    "assets_url": "https://api.github.com/repos/droboports/screen/releases/731958/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/screen/releases/731958/assets{?name}",
+    "html_url": "https://github.com/droboports/screen/releases/tag/v4.2.1-fs",
+    "id": 731958,
+    "tag_name": "v4.2.1-fs",
+    "target_commitish": "drobofs",
+    "name": "Screen 4.2.1 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-03T16:33:15Z",
-    "published_at": "2014-11-03T17:19:22Z",
+    "created_at": "2014-11-25T12:09:32Z",
+    "published_at": "2014-11-25T12:11:39Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/sabnzbd/releases/assets/292036",
-        "id": 292036,
-        "name": "sabnzbd.tgz",
+        "url": "https://api.github.com/repos/droboports/screen/releases/assets/319166",
+        "id": 319166,
+        "name": "screen.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3413018,
-        "download_count": 35,
-        "created_at": "2014-11-03T16:31:58Z",
-        "updated_at": "2014-11-03T16:32:01Z",
-        "browser_download_url": "https://github.com/droboports/sabnzbd/releases/download/v0.7.19/sabnzbd.tgz"
+        "size": 1184513,
+        "download_count": 0,
+        "created_at": "2014-11-25T12:10:58Z",
+        "updated_at": "2014-11-25T12:11:24Z",
+        "browser_download_url": "https://github.com/droboports/screen/releases/download/v4.2.1-fs/screen.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/sabnzbd/tarball/v0.7.19",
-    "zipball_url": "https://api.github.com/repos/droboports/sabnzbd/zipball/v0.7.19",
-    "body": "Once installed, the web interface can be reached at http://drobo-5n:8081/"
+    "tarball_url": "https://api.github.com/repos/droboports/screen/tarball/v4.2.1-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/screen/zipball/v4.2.1-fs",
+    "body": "This is a command-line app. To use it, please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
   },
   {
-    "url": "https://api.github.com/repos/droboports/sabnzbd/releases/599112",
-    "assets_url": "https://api.github.com/repos/droboports/sabnzbd/releases/599112/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/sabnzbd/releases/599112/assets{?name}",
-    "html_url": "https://github.com/droboports/sabnzbd/releases/tag/v0.7.18",
-    "id": 599112,
-    "tag_name": "v0.7.18",
+    "url": "https://api.github.com/repos/droboports/screen/releases/731898",
+    "assets_url": "https://api.github.com/repos/droboports/screen/releases/731898/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/screen/releases/731898/assets{?name}",
+    "html_url": "https://github.com/droboports/screen/releases/tag/v4.2.1",
+    "id": 731898,
+    "tag_name": "v4.2.1",
     "target_commitish": "master",
-    "name": "SABnzbd 0.7.18 for Drobo5N",
+    "name": "Screen 4.2.1 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-10-02T15:20:57Z",
-    "published_at": "2014-10-02T15:21:51Z",
+    "created_at": "2014-11-25T11:37:16Z",
+    "published_at": "2014-11-25T12:11:51Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/sabnzbd/releases/assets/256720",
-        "id": 256720,
-        "name": "sabnzbd.tgz",
+        "url": "https://api.github.com/repos/droboports/screen/releases/assets/319152",
+        "id": 319152,
+        "name": "screen.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3721881,
-        "download_count": 11,
-        "created_at": "2014-10-02T15:21:44Z",
-        "updated_at": "2014-10-02T15:21:47Z",
-        "browser_download_url": "https://github.com/droboports/sabnzbd/releases/download/v0.7.18/sabnzbd.tgz"
+        "size": 1170355,
+        "download_count": 0,
+        "created_at": "2014-11-25T11:40:00Z",
+        "updated_at": "2014-11-25T11:40:04Z",
+        "browser_download_url": "https://github.com/droboports/screen/releases/download/v4.2.1/screen.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/sabnzbd/tarball/v0.7.18",
-    "zipball_url": "https://api.github.com/repos/droboports/sabnzbd/zipball/v0.7.18",
-    "body": "Once installed, the web interface can be reached at http://drobo-5n:8081/"
+    "tarball_url": "https://api.github.com/repos/droboports/screen/tarball/v4.2.1",
+    "zipball_url": "https://api.github.com/repos/droboports/screen/zipball/v4.2.1",
+    "body": "This is a command-line app. To use it, please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
   }
 ]

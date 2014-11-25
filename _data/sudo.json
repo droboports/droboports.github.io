@@ -30,11 +30,11 @@
     },
     "prerelease": false,
     "created_at": "2014-11-21T15:37:57Z",
-    "published_at": "2014-11-24T09:51:31Z",
+    "published_at": "2014-11-25T10:54:30Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/sudo/releases/assets/317481",
-        "id": 317481,
+        "url": "https://api.github.com/repos/droboports/sudo/releases/assets/319109",
+        "id": 319109,
         "name": "sudo.tgz",
         "label": null,
         "uploader": {
@@ -58,10 +58,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 1196027,
+        "size": 1181723,
         "download_count": 0,
-        "created_at": "2014-11-24T09:09:23Z",
-        "updated_at": "2014-11-24T09:09:27Z",
+        "created_at": "2014-11-25T10:54:20Z",
+        "updated_at": "2014-11-25T10:54:23Z",
         "browser_download_url": "https://github.com/droboports/sudo/releases/download/v1.8.11p2-fs/sudo.tgz"
       }
     ],
