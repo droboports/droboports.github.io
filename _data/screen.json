@@ -67,7 +67,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/droboports/screen/tarball/v4.2.1-fs",
     "zipball_url": "https://api.github.com/repos/droboports/screen/zipball/v4.2.1-fs",
-    "body": "This is a command-line app. To use it, please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
+    "body": "This is a command-line app. To use it please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
   },
   {
     "url": "https://api.github.com/repos/droboports/screen/releases/731898",
@@ -137,6 +137,6 @@
     ],
     "tarball_url": "https://api.github.com/repos/droboports/screen/tarball/v4.2.1",
     "zipball_url": "https://api.github.com/repos/droboports/screen/zipball/v4.2.1",
-    "body": "This is a command-line app. To use it, please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
+    "body": "This is a command-line app. To use it please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
   }
 ]
