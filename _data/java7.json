@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 33539108,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2014-11-21T09:00:21Z",
         "updated_at": "2014-11-21T09:01:11Z",
         "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.71-fs/java7.tgz"
