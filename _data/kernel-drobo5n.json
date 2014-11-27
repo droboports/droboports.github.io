@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 42675,
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:32Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/arc4.ko"
@@ -155,7 +155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 90167,
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:29Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/des_generic.ko"
