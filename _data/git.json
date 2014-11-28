@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 9573342,
-        "download_count": 14,
+        "download_count": 15,
         "created_at": "2014-09-23T14:56:56Z",
         "updated_at": "2014-09-23T14:57:12Z",
         "browser_download_url": "https://github.com/droboports/git/releases/download/v2.1.1/git.tgz"
