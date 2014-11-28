@@ -11,6 +11,10 @@ redirect_from:
   - "/app-repository/archives/crashplan-3.5.3"
   - "/app-repository/crashplan-3.5.2"
   - "/app-repository/crashplan-3.5.3"
+  - "/app-repository/crashplan-3.5.3/drobofs"
+  - "/app-repository/crashplan-3.5.3/drobo5n"
   - "/app-repository/crashplan-3.6.3"
+  - "/app-repository/crashplan-3.6.3/drobofs"
+  - "/app-repository/crashplan-3.6.3/drobo5n"
 ---
 
