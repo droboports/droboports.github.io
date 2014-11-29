@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 72750,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2014-11-14T17:13:13Z",
         "updated_at": "2014-11-14T17:13:14Z",
         "browser_download_url": "https://github.com/droboports/mongoose/releases/download/v5.6-fs/mongoose.tgz"
