@@ -123,7 +123,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3772195,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:28Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/cifs.ko"
@@ -155,7 +155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 90167,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:29Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/des_generic.ko"
@@ -219,7 +219,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 799859,
-        "download_count": 13,
+        "download_count": 14,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:31Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/fuse.ko"
@@ -251,7 +251,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 122200,
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:16Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/hmac.ko"
@@ -283,7 +283,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 205273,
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:21Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/loop.ko"
@@ -315,7 +315,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 76551,
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:19Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/md4.ko"
@@ -411,7 +411,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1507397,
-        "download_count": 2,
+        "download_count": 5,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:19Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/nfsd.ko"

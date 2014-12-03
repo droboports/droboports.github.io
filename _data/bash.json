@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 2164878,
-        "download_count": 35,
+        "download_count": 39,
         "created_at": "2014-10-07T07:58:31Z",
         "updated_at": "2014-10-07T07:59:18Z",
         "browser_download_url": "https://github.com/droboports/bash/releases/download/v4.3.30-fs/bash.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 2166206,
-        "download_count": 43,
+        "download_count": 60,
         "created_at": "2014-10-07T07:56:29Z",
         "updated_at": "2014-10-07T07:57:19Z",
         "browser_download_url": "https://github.com/droboports/bash/releases/download/v4.3.30/bash.tgz"

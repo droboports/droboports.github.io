@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/java8/releases/722768",
-    "assets_url": "https://api.github.com/repos/droboports/java8/releases/722768/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/722768/assets{?name}",
-    "html_url": "https://github.com/droboports/java8/releases/tag/v8.6-fs",
-    "id": 722768,
-    "tag_name": "v8.6-fs",
-    "target_commitish": "drobofs",
-    "name": "Java 8 update 6 for DroboFS",
+    "url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752110",
+    "assets_url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752110/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/e2fsprogs/releases/752110/assets{?name}",
+    "html_url": "https://github.com/droboports/e2fsprogs/releases/tag/v1.42.12",
+    "id": 752110,
+    "tag_name": "v1.42.12",
+    "target_commitish": "master",
+    "name": "E2fsprogs 1.42.12 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-21T08:58:25Z",
-    "published_at": "2014-11-21T09:02:11Z",
+    "created_at": "2014-12-02T11:16:19Z",
+    "published_at": "2014-12-03T12:30:35Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java8/releases/assets/314198",
-        "id": 314198,
-        "name": "java8.tgz",
+        "url": "https://api.github.com/repos/droboports/e2fsprogs/releases/assets/329080",
+        "id": 329080,
+        "name": "e2fsprogs.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 35647000,
-        "download_count": 5,
-        "created_at": "2014-11-21T09:01:02Z",
-        "updated_at": "2014-11-21T09:01:29Z",
-        "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.6-fs/java8.tgz"
+        "size": 2012760,
+        "download_count": 0,
+        "created_at": "2014-12-03T12:29:38Z",
+        "updated_at": "2014-12-03T12:29:44Z",
+        "browser_download_url": "https://github.com/droboports/e2fsprogs/releases/download/v1.42.12/e2fsprogs.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/java8/tarball/v8.6-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/java8/zipball/v8.6-fs",
-    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
+    "tarball_url": "https://api.github.com/repos/droboports/e2fsprogs/tarball/v1.42.12",
+    "zipball_url": "https://api.github.com/repos/droboports/e2fsprogs/zipball/v1.42.12",
+    "body": "This is a command-line app. To use it please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
   },
   {
-    "url": "https://api.github.com/repos/droboports/java8/releases/720951",
-    "assets_url": "https://api.github.com/repos/droboports/java8/releases/720951/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/720951/assets{?name}",
-    "html_url": "https://github.com/droboports/java8/releases/tag/v8.6",
-    "id": 720951,
-    "tag_name": "v8.6",
-    "target_commitish": "master",
-    "name": "Java 8 update 6 for Drobo5N",
+    "url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752104",
+    "assets_url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752104/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/e2fsprogs/releases/752104/assets{?name}",
+    "html_url": "https://github.com/droboports/e2fsprogs/releases/tag/v1.42.12-fs",
+    "id": 752104,
+    "tag_name": "v1.42.12-fs",
+    "target_commitish": "drobofs",
+    "name": "E2fsprogs 1.42.12 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-20T17:00:54Z",
-    "published_at": "2014-11-21T09:02:18Z",
+    "created_at": "2014-12-03T12:24:20Z",
+    "published_at": "2014-12-03T12:30:22Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java8/releases/assets/313375",
-        "id": 313375,
-        "name": "java8.tgz",
+        "url": "https://api.github.com/repos/droboports/e2fsprogs/releases/assets/329078",
+        "id": 329078,
+        "name": "e2fsprogs.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 37769179,
-        "download_count": 10,
-        "created_at": "2014-11-20T17:04:13Z",
-        "updated_at": "2014-11-20T17:04:55Z",
-        "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.6/java8.tgz"
+        "size": 1989954,
+        "download_count": 0,
+        "created_at": "2014-12-03T12:28:05Z",
+        "updated_at": "2014-12-03T12:28:09Z",
+        "browser_download_url": "https://github.com/droboports/e2fsprogs/releases/download/v1.42.12-fs/e2fsprogs.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/java8/tarball/v8.6",
-    "zipball_url": "https://api.github.com/repos/droboports/java8/zipball/v8.6",
-    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
+    "tarball_url": "https://api.github.com/repos/droboports/e2fsprogs/tarball/v1.42.12-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/e2fsprogs/zipball/v1.42.12-fs",
+    "body": "This is a command-line app. To use it please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
   }
 ]

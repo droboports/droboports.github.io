@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3413018,
-        "download_count": 44,
+        "download_count": 55,
         "created_at": "2014-11-03T16:31:58Z",
         "updated_at": "2014-11-03T16:32:01Z",
         "browser_download_url": "https://github.com/droboports/sabnzbd/releases/download/v0.7.19/sabnzbd.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3721881,
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2014-10-02T15:21:44Z",
         "updated_at": "2014-10-02T15:21:47Z",
         "browser_download_url": "https://github.com/droboports/sabnzbd/releases/download/v0.7.18/sabnzbd.tgz"
