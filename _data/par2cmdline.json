@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 113648,
-        "download_count": 3,
+        "download_count": 13,
         "created_at": "2014-09-25T13:22:11Z",
         "updated_at": "2014-09-25T13:22:12Z",
         "browser_download_url": "https://github.com/droboports/par2cmdline/releases/download/v0.4-fs/par2.tgz"
@@ -100,11 +100,11 @@
     },
     "prerelease": false,
     "created_at": "2014-09-25T13:19:57Z",
-    "published_at": "2014-09-25T13:21:39Z",
+    "published_at": "2014-12-29T16:05:42Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/par2cmdline/releases/assets/249119",
-        "id": 249119,
+        "url": "https://api.github.com/repos/droboports/par2cmdline/releases/assets/359351",
+        "id": 359351,
         "name": "par2.tgz",
         "label": null,
         "uploader": {
@@ -128,10 +128,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 105993,
-        "download_count": 24,
-        "created_at": "2014-09-25T13:21:32Z",
-        "updated_at": "2014-09-25T13:21:33Z",
+        "size": 81205,
+        "download_count": 0,
+        "created_at": "2014-12-29T16:05:37Z",
+        "updated_at": "2014-12-29T16:05:40Z",
         "browser_download_url": "https://github.com/droboports/par2cmdline/releases/download/v0.4/par2.tgz"
       }
     ],
