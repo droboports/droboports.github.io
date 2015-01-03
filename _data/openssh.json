@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3477647,
-        "download_count": 223,
+        "download_count": 276,
         "created_at": "2014-11-27T12:42:20Z",
         "updated_at": "2014-11-27T12:43:34Z",
         "browser_download_url": "https://github.com/droboports/openssh/releases/download/v6.7/openssh.tgz"
@@ -99,12 +99,12 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-27T12:28:22Z",
-    "published_at": "2014-11-27T12:38:54Z",
+    "created_at": "2015-01-03T10:51:33Z",
+    "published_at": "2015-01-03T15:35:11Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/openssh/releases/assets/322168",
-        "id": 322168,
+        "url": "https://api.github.com/repos/droboports/openssh/releases/assets/363755",
+        "id": 363755,
         "name": "openssh.tgz",
         "label": null,
         "uploader": {
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3422683,
-        "download_count": 117,
-        "created_at": "2014-11-27T12:34:15Z",
-        "updated_at": "2014-11-27T12:35:29Z",
+        "size": 3422692,
+        "download_count": 4,
+        "created_at": "2015-01-03T11:26:01Z",
+        "updated_at": "2015-01-03T11:27:14Z",
         "browser_download_url": "https://github.com/droboports/openssh/releases/download/v6.7-fs/openssh.tgz"
       }
     ],
     "tarball_url": "https://api.github.com/repos/droboports/openssh/tarball/v6.7-fs",
     "zipball_url": "https://api.github.com/repos/droboports/openssh/zipball/v6.7-fs",
-    "body": "After installation, the SSH server wil be reachable at port 22. Any account created using the [Drobo Dashboard](http://www.drobo.com/drobo-downloads/) can be used to log in. If you need root access, please install the [sudo DroboApp](https://github.com/droboports/sudo)."
+    "body": "After installation, the SSH server wil be reachable at port 22. Any account created using the [Drobo Dashboard](http://www.drobo.com/drobo-downloads/) can be used to log in. If you need root access, please install the [sudo DroboApp](https://github.com/droboports/sudo).\r\n\r\nIncludes fix for issue #1."
   }
 ]

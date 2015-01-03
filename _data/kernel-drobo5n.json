@@ -155,7 +155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 90167,
-        "download_count": 5,
+        "download_count": 6,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:29Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/des_generic.ko"
@@ -347,7 +347,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 59361,
-        "download_count": 8,
+        "download_count": 9,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:22Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/md5.ko"

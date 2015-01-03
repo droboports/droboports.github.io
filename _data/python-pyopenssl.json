@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 297958,
-        "download_count": 45,
+        "download_count": 46,
         "created_at": "2014-10-02T14:39:56Z",
         "updated_at": "2014-10-02T14:39:57Z",
         "browser_download_url": "https://github.com/droboports/python-pyopenssl/releases/download/v0.13/pyOpenSSL-0.13-py2.7-linux-armv7l.egg"
