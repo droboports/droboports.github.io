@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 12876,
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2015-01-07T16:28:35Z",
         "updated_at": "2015-01-07T16:28:37Z",
         "browser_download_url": "https://github.com/droboports/fsx/releases/download/v1.0.0-fs/fsx.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 12747,
-        "download_count": 0,
+        "download_count": 3,
         "created_at": "2015-01-07T16:09:33Z",
         "updated_at": "2015-01-07T16:09:35Z",
         "browser_download_url": "https://github.com/droboports/fsx/releases/download/v1.0.0/fsx.tgz"
