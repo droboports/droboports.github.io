@@ -3,11 +3,11 @@
     "url": "https://api.github.com/repos/droboports/crashplan/releases/844620",
     "assets_url": "https://api.github.com/repos/droboports/crashplan/releases/844620/assets",
     "upload_url": "https://uploads.github.com/repos/droboports/crashplan/releases/844620/assets{?name}",
-    "html_url": "https://github.com/droboports/crashplan/releases/tag/v3.7.0b1-fs",
+    "html_url": "https://github.com/droboports/crashplan/releases/tag/v3.7.0-fs",
     "id": 844620,
-    "tag_name": "v3.7.0b1-fs",
+    "tag_name": "v3.7.0-fs",
     "target_commitish": "drobofs",
-    "name": "CrashPlan 3.7.0 beta 1 for DroboFS",
+    "name": "CrashPlan 3.7.0 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -28,7 +28,7 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": true,
+    "prerelease": false,
     "created_at": "2015-01-11T05:06:13Z",
     "published_at": "2015-01-12T18:06:51Z",
     "assets": [
@@ -59,25 +59,25 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 22178812,
-        "download_count": 0,
+        "download_count": 23,
         "created_at": "2015-01-12T17:59:19Z",
         "updated_at": "2015-01-12T18:06:25Z",
-        "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.7.0b1-fs/crashplan.tgz"
+        "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.7.0-fs/crashplan.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/crashplan/tarball/v3.7.0b1-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/crashplan/zipball/v3.7.0b1-fs",
-    "body": "*WARNING: This is a beta release. It has not been properly tested. Please avoid unless you know how to recover from a botched upgrade.*\r\n\r\nTo configure the CrashPlan engine you have to install the software on your machine, and redirect the GUI to connect with the Drobo. To do this, you need to establish a port forward from your desktop to the Drobo. Something like this should do the trick:\r\n\r\n`ssh -L 4201:localhost:4243 root@drobo-fs`\r\n\r\nShort explanation: this forwards any connection attempts to port 4201 on your machine to port 4243 on the Drobo. Once this is done, you have to tell the CrashPlan client to connect to port 4201 instead of the default (4243). To do this on a Mac, edit the file `~/Library/Application Support/CrashPlan/ui.properties` and add this line:\r\n\r\n`servicePort=4201`\r\n\r\nSave the file, and start the app. It will ask for the credentials to be used on the Drobo. Once logged in, if the folder selection screen shows the path `/mnt/DroboFS/Shares`, then congratulations, you have CrashPlan on your Drobo.\r\n\r\nMore information about configuring a server over SSH can be found [here](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client)."
+    "tarball_url": "https://api.github.com/repos/droboports/crashplan/tarball/v3.7.0-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/crashplan/zipball/v3.7.0-fs",
+    "body": "To configure the CrashPlan engine you have to install the software on your machine, and redirect the GUI to connect with the Drobo. To do this, you need to establish a port forward from your desktop to the Drobo. Something like this should do the trick:\r\n\r\n`ssh -L 4201:localhost:4243 root@drobo-fs`\r\n\r\nShort explanation: this forwards any connection attempts to port 4201 on your machine to port 4243 on the Drobo. Once this is done, you have to tell the CrashPlan client to connect to port 4201 instead of the default (4243). To do this on a Mac, edit the file `~/Library/Application Support/CrashPlan/ui.properties` and add this line:\r\n\r\n`servicePort=4201`\r\n\r\nSave the file, and start the app. It will ask for the credentials to be used on the Drobo. Once logged in, if the folder selection screen shows the path `/mnt/DroboFS/Shares`, then congratulations, you have CrashPlan on your Drobo.\r\n\r\nMore information about configuring a server over SSH can be found [here](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client)."
   },
   {
     "url": "https://api.github.com/repos/droboports/crashplan/releases/844580",
     "assets_url": "https://api.github.com/repos/droboports/crashplan/releases/844580/assets",
     "upload_url": "https://uploads.github.com/repos/droboports/crashplan/releases/844580/assets{?name}",
-    "html_url": "https://github.com/droboports/crashplan/releases/tag/v3.7.0b1",
+    "html_url": "https://github.com/droboports/crashplan/releases/tag/v3.7.0",
     "id": 844580,
-    "tag_name": "v3.7.0b1",
+    "tag_name": "v3.7.0",
     "target_commitish": "master",
-    "name": "CrashPlan 3.7.0 beta 1 for Drobo5N",
+    "name": "CrashPlan 3.7.0 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -98,7 +98,7 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": true,
+    "prerelease": false,
     "created_at": "2015-01-11T04:56:37Z",
     "published_at": "2015-01-12T17:56:37Z",
     "assets": [
@@ -129,15 +129,15 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 22179964,
-        "download_count": 0,
+        "download_count": 101,
         "created_at": "2015-01-12T17:49:08Z",
         "updated_at": "2015-01-12T17:55:53Z",
-        "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.7.0b1/crashplan.tgz"
+        "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.7.0/crashplan.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/crashplan/tarball/v3.7.0b1",
-    "zipball_url": "https://api.github.com/repos/droboports/crashplan/zipball/v3.7.0b1",
-    "body": "*WARNING: This is a beta release. It has not been properly tested. Please avoid unless you know how to recover from a botched upgrade.*\r\n\r\nTo configure the CrashPlan engine you have to install the software on your machine, and redirect the GUI to connect with the Drobo. To do this, you need to establish a port forward from your desktop to the Drobo. Something like this should do the trick:\r\n\r\n`ssh -L 4201:localhost:4243 root@drobo-5n`\r\n\r\nShort explanation: this forwards any connection attempts to port 4201 on your machine to port 4243 on the Drobo. Once this is done, you have to tell the CrashPlan client to connect to port 4201 instead of the default (4243). To do this on a Mac, edit the file `~/Library/Application Support/CrashPlan/ui.properties` and add this line:\r\n\r\n`servicePort=4201`\r\n\r\nSave the file, and start the app. It will ask for the credentials to be used on the Drobo. Once logged in, if the folder selection screen shows the path `/mnt/DroboFS/Shares`, then congratulations, you have CrashPlan on your Drobo.\r\n\r\nMore information about configuring a server over SSH can be found [here](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client)."
+    "tarball_url": "https://api.github.com/repos/droboports/crashplan/tarball/v3.7.0",
+    "zipball_url": "https://api.github.com/repos/droboports/crashplan/zipball/v3.7.0",
+    "body": "To configure the CrashPlan engine you have to install the software on your machine, and redirect the GUI to connect with the Drobo. To do this, you need to establish a port forward from your desktop to the Drobo. Something like this should do the trick:\r\n\r\n`ssh -L 4201:localhost:4243 root@drobo-5n`\r\n\r\nShort explanation: this forwards any connection attempts to port 4201 on your machine to port 4243 on the Drobo. Once this is done, you have to tell the CrashPlan client to connect to port 4201 instead of the default (4243). To do this on a Mac, edit the file `~/Library/Application Support/CrashPlan/ui.properties` and add this line:\r\n\r\n`servicePort=4201`\r\n\r\nSave the file, and start the app. It will ask for the credentials to be used on the Drobo. Once logged in, if the folder selection screen shows the path `/mnt/DroboFS/Shares`, then congratulations, you have CrashPlan on your Drobo.\r\n\r\nMore information about configuring a server over SSH can be found [here](http://support.code42.com/CrashPlan/Latest/Configuring/Configuring_A_Headless_Client)."
   },
   {
     "url": "https://api.github.com/repos/droboports/crashplan/releases/741007",
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 21284475,
-        "download_count": 142,
+        "download_count": 172,
         "created_at": "2014-11-28T14:28:32Z",
         "updated_at": "2014-11-28T14:29:02Z",
         "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.6.4u1/crashplan.tgz"
@@ -269,7 +269,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 21282758,
-        "download_count": 74,
+        "download_count": 80,
         "created_at": "2014-11-28T14:34:40Z",
         "updated_at": "2014-11-28T14:35:10Z",
         "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.6.4u1-fs/crashplan.tgz"
@@ -339,7 +339,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 21282481,
-        "download_count": 68,
+        "download_count": 72,
         "created_at": "2014-10-27T17:58:26Z",
         "updated_at": "2014-10-27T17:58:51Z",
         "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.6.4-fs/crashplan.tgz"
@@ -409,7 +409,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 21284224,
-        "download_count": 260,
+        "download_count": 287,
         "created_at": "2014-10-27T17:24:56Z",
         "updated_at": "2014-10-27T17:25:18Z",
         "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.6.4/crashplan.tgz"

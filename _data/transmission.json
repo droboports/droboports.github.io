@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/sabnzbd/releases/673943",
-    "assets_url": "https://api.github.com/repos/droboports/sabnzbd/releases/673943/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/sabnzbd/releases/673943/assets{?name}",
-    "html_url": "https://github.com/droboports/sabnzbd/releases/tag/v0.7.19",
-    "id": 673943,
-    "tag_name": "v0.7.19",
-    "target_commitish": "master",
-    "name": "SABnzbd 0.7.19 for Drobo5N",
+    "url": "https://api.github.com/repos/droboports/transmission/releases/868255",
+    "assets_url": "https://api.github.com/repos/droboports/transmission/releases/868255/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868255/assets{?name}",
+    "html_url": "https://github.com/droboports/transmission/releases/tag/v2.84-fs",
+    "id": 868255,
+    "tag_name": "v2.84-fs",
+    "target_commitish": "drobofs",
+    "name": "Transmission 2.84 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-03T16:33:15Z",
-    "published_at": "2014-11-03T17:19:22Z",
+    "created_at": "2015-01-20T17:48:26Z",
+    "published_at": "2015-01-20T17:59:38Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/sabnzbd/releases/assets/292036",
-        "id": 292036,
-        "name": "sabnzbd.tgz",
+        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/387198",
+        "id": 387198,
+        "name": "transmission.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3413018,
-        "download_count": 204,
-        "created_at": "2014-11-03T16:31:58Z",
-        "updated_at": "2014-11-03T16:32:01Z",
-        "browser_download_url": "https://github.com/droboports/sabnzbd/releases/download/v0.7.19/sabnzbd.tgz"
+        "size": 15423772,
+        "download_count": 0,
+        "created_at": "2015-01-20T17:49:35Z",
+        "updated_at": "2015-01-20T17:52:56Z",
+        "browser_download_url": "https://github.com/droboports/transmission/releases/download/v2.84-fs/transmission.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/sabnzbd/tarball/v0.7.19",
-    "zipball_url": "https://api.github.com/repos/droboports/sabnzbd/zipball/v0.7.19",
-    "body": "Once installed, the web interface can be reached at http://drobo-5n:8081/"
+    "tarball_url": "https://api.github.com/repos/droboports/transmission/tarball/v2.84-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/transmission/zipball/v2.84-fs",
+    "body": "Once installed, the web interface can be reached at http://drobo-fs:9091/"
   },
   {
-    "url": "https://api.github.com/repos/droboports/sabnzbd/releases/599112",
-    "assets_url": "https://api.github.com/repos/droboports/sabnzbd/releases/599112/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/sabnzbd/releases/599112/assets{?name}",
-    "html_url": "https://github.com/droboports/sabnzbd/releases/tag/v0.7.18",
-    "id": 599112,
-    "tag_name": "v0.7.18",
+    "url": "https://api.github.com/repos/droboports/transmission/releases/868161",
+    "assets_url": "https://api.github.com/repos/droboports/transmission/releases/868161/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868161/assets{?name}",
+    "html_url": "https://github.com/droboports/transmission/releases/tag/v2.84",
+    "id": 868161,
+    "tag_name": "v2.84",
     "target_commitish": "master",
-    "name": "SABnzbd 0.7.18 for Drobo5N",
+    "name": "Transmission 2.84 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-10-02T15:20:57Z",
-    "published_at": "2014-10-02T15:21:51Z",
+    "created_at": "2015-01-20T17:28:28Z",
+    "published_at": "2015-01-20T17:28:58Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/sabnzbd/releases/assets/256720",
-        "id": 256720,
-        "name": "sabnzbd.tgz",
+        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/387159",
+        "id": 387159,
+        "name": "transmission.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3721881,
-        "download_count": 14,
-        "created_at": "2014-10-02T15:21:44Z",
-        "updated_at": "2014-10-02T15:21:47Z",
-        "browser_download_url": "https://github.com/droboports/sabnzbd/releases/download/v0.7.18/sabnzbd.tgz"
+        "size": 15862505,
+        "download_count": 0,
+        "created_at": "2015-01-20T17:25:10Z",
+        "updated_at": "2015-01-20T17:28:02Z",
+        "browser_download_url": "https://github.com/droboports/transmission/releases/download/v2.84/transmission.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/sabnzbd/tarball/v0.7.18",
-    "zipball_url": "https://api.github.com/repos/droboports/sabnzbd/zipball/v0.7.18",
-    "body": "Once installed, the web interface can be reached at http://drobo-5n:8081/"
+    "tarball_url": "https://api.github.com/repos/droboports/transmission/tarball/v2.84",
+    "zipball_url": "https://api.github.com/repos/droboports/transmission/zipball/v2.84",
+    "body": "Once installed, the web interface can be reached at http://drobo-5n:9091/"
   }
 ]

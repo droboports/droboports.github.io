@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 113648,
-        "download_count": 23,
+        "download_count": 27,
         "created_at": "2014-09-25T13:22:11Z",
         "updated_at": "2014-09-25T13:22:12Z",
         "browser_download_url": "https://github.com/droboports/par2cmdline/releases/download/v0.4-fs/par2.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 81205,
-        "download_count": 39,
+        "download_count": 51,
         "created_at": "2014-12-29T16:05:37Z",
         "updated_at": "2014-12-29T16:05:40Z",
         "browser_download_url": "https://github.com/droboports/par2cmdline/releases/download/v0.4/par2.tgz"
