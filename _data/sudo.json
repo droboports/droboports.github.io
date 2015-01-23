@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1181723,
-        "download_count": 86,
+        "download_count": 90,
         "created_at": "2014-11-25T10:54:20Z",
         "updated_at": "2014-11-25T10:54:23Z",
         "browser_download_url": "https://github.com/droboports/sudo/releases/download/v1.8.11p2-fs/sudo.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1191209,
-        "download_count": 164,
+        "download_count": 173,
         "created_at": "2014-11-21T15:40:58Z",
         "updated_at": "2014-11-21T15:41:22Z",
         "browser_download_url": "https://github.com/droboports/sudo/releases/download/v1.8.11p2/sudo.tgz"

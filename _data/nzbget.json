@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/java7/releases/722763",
-    "assets_url": "https://api.github.com/repos/droboports/java7/releases/722763/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/722763/assets{?name}",
-    "html_url": "https://github.com/droboports/java7/releases/tag/v7.71-fs",
-    "id": 722763,
-    "tag_name": "v7.71-fs",
+    "url": "https://api.github.com/repos/droboports/nzbget/releases/879727",
+    "assets_url": "https://api.github.com/repos/droboports/nzbget/releases/879727/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/nzbget/releases/879727/assets{?name}",
+    "html_url": "https://github.com/droboports/nzbget/releases/tag/v14.1-fs",
+    "id": 879727,
+    "tag_name": "v14.1-fs",
     "target_commitish": "drobofs",
-    "name": "Java 7 update 71 for DroboFS",
+    "name": "NZBGet 14.1 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-21T08:58:01Z",
-    "published_at": "2014-11-21T09:01:50Z",
+    "created_at": "2015-01-23T21:20:31Z",
+    "published_at": "2015-01-23T21:22:03Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java7/releases/assets/314196",
-        "id": 314196,
-        "name": "java7.tgz",
+        "url": "https://api.github.com/repos/droboports/nzbget/releases/assets/392025",
+        "id": 392025,
+        "name": "nzbget.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 33539108,
-        "download_count": 31,
-        "created_at": "2014-11-21T09:00:21Z",
-        "updated_at": "2014-11-21T09:01:11Z",
-        "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.71-fs/java7.tgz"
+        "size": 3342347,
+        "download_count": 0,
+        "created_at": "2015-01-23T21:20:50Z",
+        "updated_at": "2015-01-23T21:21:34Z",
+        "browser_download_url": "https://github.com/droboports/nzbget/releases/download/v14.1-fs/nzbget.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/java7/tarball/v7.71-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/java7/zipball/v7.71-fs",
-    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
+    "tarball_url": "https://api.github.com/repos/droboports/nzbget/tarball/v14.1-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/nzbget/zipball/v14.1-fs",
+    "body": "Once installed the web interface can be reached at http://drobo-fs:6789/\r\n\r\nUsername is `nzbget`, password is `tegbzn6789`."
   },
   {
-    "url": "https://api.github.com/repos/droboports/java7/releases/720945",
-    "assets_url": "https://api.github.com/repos/droboports/java7/releases/720945/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/720945/assets{?name}",
-    "html_url": "https://github.com/droboports/java7/releases/tag/v7.71",
-    "id": 720945,
-    "tag_name": "v7.71",
+    "url": "https://api.github.com/repos/droboports/nzbget/releases/879724",
+    "assets_url": "https://api.github.com/repos/droboports/nzbget/releases/879724/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/nzbget/releases/879724/assets{?name}",
+    "html_url": "https://github.com/droboports/nzbget/releases/tag/v14.1",
+    "id": 879724,
+    "tag_name": "v14.1",
     "target_commitish": "master",
-    "name": "Java 7 update 71 for Drobo5N",
+    "name": "NZBGet 14.1 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-20T17:00:11Z",
-    "published_at": "2014-11-21T09:01:57Z",
+    "created_at": "2015-01-23T20:45:48Z",
+    "published_at": "2015-01-23T20:49:24Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java7/releases/assets/313374",
-        "id": 313374,
-        "name": "java7.tgz",
+        "url": "https://api.github.com/repos/droboports/nzbget/releases/assets/391963",
+        "id": 391963,
+        "name": "nzbget.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 33990876,
-        "download_count": 75,
-        "created_at": "2014-11-20T17:03:11Z",
-        "updated_at": "2014-11-20T17:03:51Z",
-        "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.71/java7.tgz"
+        "size": 3243678,
+        "download_count": 0,
+        "created_at": "2015-01-23T20:48:00Z",
+        "updated_at": "2015-01-23T20:49:03Z",
+        "browser_download_url": "https://github.com/droboports/nzbget/releases/download/v14.1/nzbget.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/java7/tarball/v7.71",
-    "zipball_url": "https://api.github.com/repos/droboports/java7/zipball/v7.71",
-    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
+    "tarball_url": "https://api.github.com/repos/droboports/nzbget/tarball/v14.1",
+    "zipball_url": "https://api.github.com/repos/droboports/nzbget/zipball/v14.1",
+    "body": "Once installed the web interface can be reached at http://drobo-5n:6789/\r\n\r\nUsername is `nzbget`, password is `tegbzn6789`."
   }
 ]
