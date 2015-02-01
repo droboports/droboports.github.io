@@ -29,12 +29,12 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-01-23T21:20:31Z",
-    "published_at": "2015-01-23T21:22:03Z",
+    "created_at": "2015-01-23T23:19:20Z",
+    "published_at": "2015-01-23T23:35:11Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/nzbget/releases/assets/392025",
-        "id": 392025,
+        "url": "https://api.github.com/repos/droboports/nzbget/releases/assets/392257",
+        "id": 392257,
         "name": "nzbget.tgz",
         "label": null,
         "uploader": {
@@ -58,10 +58,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3342347,
-        "download_count": 0,
-        "created_at": "2015-01-23T21:20:50Z",
-        "updated_at": "2015-01-23T21:21:34Z",
+        "size": 3342304,
+        "download_count": 1,
+        "created_at": "2015-01-23T23:33:30Z",
+        "updated_at": "2015-01-23T23:34:06Z",
         "browser_download_url": "https://github.com/droboports/nzbget/releases/download/v14.1-fs/nzbget.tgz"
       }
     ],
@@ -99,12 +99,12 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-01-23T20:45:48Z",
-    "published_at": "2015-01-23T20:49:24Z",
+    "created_at": "2015-01-23T23:18:32Z",
+    "published_at": "2015-01-23T23:32:09Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/nzbget/releases/assets/391963",
-        "id": 391963,
+        "url": "https://api.github.com/repos/droboports/nzbget/releases/assets/392249",
+        "id": 392249,
         "name": "nzbget.tgz",
         "label": null,
         "uploader": {
@@ -128,10 +128,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3243678,
-        "download_count": 0,
-        "created_at": "2015-01-23T20:48:00Z",
-        "updated_at": "2015-01-23T20:49:03Z",
+        "size": 3244349,
+        "download_count": 8,
+        "created_at": "2015-01-23T23:27:38Z",
+        "updated_at": "2015-01-23T23:28:16Z",
         "browser_download_url": "https://github.com/droboports/nzbget/releases/download/v14.1/nzbget.tgz"
       }
     ],

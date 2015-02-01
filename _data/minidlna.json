@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/transmission/releases/868255",
-    "assets_url": "https://api.github.com/repos/droboports/transmission/releases/868255/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868255/assets{?name}",
-    "html_url": "https://github.com/droboports/transmission/releases/tag/v2.84-fs",
-    "id": 868255,
-    "tag_name": "v2.84-fs",
+    "url": "https://api.github.com/repos/droboports/minidlna/releases/906251",
+    "assets_url": "https://api.github.com/repos/droboports/minidlna/releases/906251/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/minidlna/releases/906251/assets{?name}",
+    "html_url": "https://github.com/droboports/minidlna/releases/tag/v1.1.4-fs",
+    "id": 906251,
+    "tag_name": "v1.1.4-fs",
     "target_commitish": "drobofs",
-    "name": "Transmission 2.84 for DroboFS",
+    "name": "MiniDLNA 1.1.4 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-01-23T23:25:43Z",
-    "published_at": "2015-01-23T23:51:10Z",
+    "created_at": "2015-01-31T22:40:32Z",
+    "published_at": "2015-02-01T21:39:08Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/392269",
-        "id": 392269,
-        "name": "transmission.tgz",
+        "url": "https://api.github.com/repos/droboports/minidlna/releases/assets/403842",
+        "id": 403842,
+        "name": "minidlna.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 15423288,
-        "download_count": 9,
-        "created_at": "2015-01-23T23:47:55Z",
-        "updated_at": "2015-01-23T23:50:41Z",
-        "browser_download_url": "https://github.com/droboports/transmission/releases/download/v2.84-fs/transmission.tgz"
+        "size": 5879363,
+        "download_count": 0,
+        "created_at": "2015-02-01T21:36:36Z",
+        "updated_at": "2015-02-01T21:38:55Z",
+        "browser_download_url": "https://github.com/droboports/minidlna/releases/download/v1.1.4-fs/minidlna.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/transmission/tarball/v2.84-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/transmission/zipball/v2.84-fs",
-    "body": "Once installed, the web interface can be reached at http://drobo-fs:9091/"
+    "tarball_url": "https://api.github.com/repos/droboports/minidlna/tarball/v1.1.4-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/minidlna/zipball/v1.1.4-fs",
+    "body": "Please edit the configuration file `smb://drobo-fs/DroboApps/minidlna/etc/minidlna.conf` to select which folders to index."
   },
   {
-    "url": "https://api.github.com/repos/droboports/transmission/releases/868161",
-    "assets_url": "https://api.github.com/repos/droboports/transmission/releases/868161/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868161/assets{?name}",
-    "html_url": "https://github.com/droboports/transmission/releases/tag/v2.84",
-    "id": 868161,
-    "tag_name": "v2.84",
+    "url": "https://api.github.com/repos/droboports/minidlna/releases/906248",
+    "assets_url": "https://api.github.com/repos/droboports/minidlna/releases/906248/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/minidlna/releases/906248/assets{?name}",
+    "html_url": "https://github.com/droboports/minidlna/releases/tag/v1.1.4",
+    "id": 906248,
+    "tag_name": "v1.1.4",
     "target_commitish": "master",
-    "name": "Transmission 2.84 for Drobo5N",
+    "name": "MiniDLNA 1.1.4 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-01-23T23:24:50Z",
-    "published_at": "2015-01-23T23:44:03Z",
+    "created_at": "2015-01-24T00:17:07Z",
+    "published_at": "2015-02-01T21:48:46Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/392265",
-        "id": 392265,
-        "name": "transmission.tgz",
+        "url": "https://api.github.com/repos/droboports/minidlna/releases/assets/403851",
+        "id": 403851,
+        "name": "minidlna.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 15860822,
-        "download_count": 19,
-        "created_at": "2015-01-23T23:40:19Z",
-        "updated_at": "2015-01-23T23:43:20Z",
-        "browser_download_url": "https://github.com/droboports/transmission/releases/download/v2.84/transmission.tgz"
+        "size": 5873703,
+        "download_count": 0,
+        "created_at": "2015-02-01T21:45:48Z",
+        "updated_at": "2015-02-01T21:48:37Z",
+        "browser_download_url": "https://github.com/droboports/minidlna/releases/download/v1.1.4/minidlna.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/transmission/tarball/v2.84",
-    "zipball_url": "https://api.github.com/repos/droboports/transmission/zipball/v2.84",
-    "body": "Once installed, the web interface can be reached at http://drobo-5n:9091/"
+    "tarball_url": "https://api.github.com/repos/droboports/minidlna/tarball/v1.1.4",
+    "zipball_url": "https://api.github.com/repos/droboports/minidlna/zipball/v1.1.4",
+    "body": "Please edit the configuration file `smb://drobo-5n/DroboApps/minidlna/etc/minidlna.conf` to select which folders to index."
   }
 ]
