@@ -4,7 +4,7 @@ permalink: /app-repository/crashplan
 appname: crashplan
 title: CrashPlan
 description: Computer backup made simple.
-avatar: http://findicons.com/icon/download/587047/crashplan/128/png
+avatar: /icons/crashplan.png
 website: https://www.code42.com/crashplan/
 redirect_from:
   - "/app-repository/archives/crashplan-3-5-2"

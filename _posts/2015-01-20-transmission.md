@@ -4,7 +4,7 @@ permalink: /app-repository/transmission
 appname: transmission
 title: Transmission
 description: Transmission is a cross-platform BitTorrent client.
-avatar: http://i1-news.softpedia-static.com/images/news2/Download-Transmission-1-74-for-Mac-OS-X-2.png
+avatar: /icons/transmission.png
 website: https://www.transmissionbt.com/
 redirect_from:
   - "/app-repository/archives/transmission-2-73"

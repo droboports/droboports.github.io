@@ -4,7 +4,7 @@ permalink: /app-repository/couchpotato
 appname: couchpotato
 title: CouchPotato
 description: PVR that downloads and manages movies.
-avatar: https://couchpota.to/media/images/logo.png
+avatar: /icons/couchpotato.png
 website: https://couchpota.to/
 ---
 
