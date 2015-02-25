@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/unrar/releases/582049",
-    "assets_url": "https://api.github.com/repos/droboports/unrar/releases/582049/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/unrar/releases/582049/assets{?name}",
-    "html_url": "https://github.com/droboports/unrar/releases/tag/v5.1.7-fs",
-    "id": 582049,
-    "tag_name": "v5.1.7-fs",
+    "url": "https://api.github.com/repos/droboports/imagemagick/releases/982261",
+    "assets_url": "https://api.github.com/repos/droboports/imagemagick/releases/982261/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/imagemagick/releases/982261/assets{?name}",
+    "html_url": "https://github.com/droboports/imagemagick/releases/tag/v6.9.0-7-fs",
+    "id": 982261,
+    "tag_name": "v6.9.0-7-fs",
     "target_commitish": "drobofs",
-    "name": "Unrar DroboApp for DroboFS",
+    "name": "ImageMagick 6.9.0-7 for DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -28,14 +28,14 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": false,
-    "created_at": "2014-09-25T10:06:09Z",
-    "published_at": "2014-09-25T10:07:31Z",
+    "prerelease": true,
+    "created_at": "2015-02-22T20:40:24Z",
+    "published_at": "2015-02-24T13:10:06Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/unrar/releases/assets/248983",
-        "id": 248983,
-        "name": "unrar.tgz",
+        "url": "https://api.github.com/repos/droboports/imagemagick/releases/assets/438179",
+        "id": 438179,
+        "name": "imagemagick.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 124312,
-        "download_count": 54,
-        "created_at": "2014-09-25T10:07:08Z",
-        "updated_at": "2014-09-25T10:07:09Z",
-        "browser_download_url": "https://github.com/droboports/unrar/releases/download/v5.1.7-fs/unrar.tgz"
+        "size": 7209839,
+        "download_count": 0,
+        "created_at": "2015-02-24T13:08:21Z",
+        "updated_at": "2015-02-24T13:09:20Z",
+        "browser_download_url": "https://github.com/droboports/imagemagick/releases/download/v6.9.0-7-fs/imagemagick.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/unrar/tarball/v5.1.7-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/unrar/zipball/v5.1.7-fs",
-    "body": ""
+    "tarball_url": "https://api.github.com/repos/droboports/imagemagick/tarball/v6.9.0-7-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/imagemagick/zipball/v6.9.0-7-fs",
+    "body": "This is a command-line app. To use it please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh).\r\n\r\nThis version supports png, jpeg, and tiff files."
   },
   {
-    "url": "https://api.github.com/repos/droboports/unrar/releases/582035",
-    "assets_url": "https://api.github.com/repos/droboports/unrar/releases/582035/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/unrar/releases/582035/assets{?name}",
-    "html_url": "https://github.com/droboports/unrar/releases/tag/v5.1.7",
-    "id": 582035,
-    "tag_name": "v5.1.7",
+    "url": "https://api.github.com/repos/droboports/imagemagick/releases/982247",
+    "assets_url": "https://api.github.com/repos/droboports/imagemagick/releases/982247/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/imagemagick/releases/982247/assets{?name}",
+    "html_url": "https://github.com/droboports/imagemagick/releases/tag/v6.9.0-7",
+    "id": 982247,
+    "tag_name": "v6.9.0-7",
     "target_commitish": "master",
-    "name": "Unrar DroboApp for Drobo5N",
+    "name": "ImageMagick 6.9.0-7 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-09-25T10:00:44Z",
-    "published_at": "2014-09-25T10:02:36Z",
+    "created_at": "2015-02-22T20:12:50Z",
+    "published_at": "2015-02-24T13:03:55Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/unrar/releases/assets/248978",
-        "id": 248978,
-        "name": "unrar.tgz",
+        "url": "https://api.github.com/repos/droboports/imagemagick/releases/assets/438174",
+        "id": 438174,
+        "name": "imagemagick.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 107193,
-        "download_count": 196,
-        "created_at": "2014-09-25T10:02:16Z",
-        "updated_at": "2014-09-25T10:02:17Z",
-        "browser_download_url": "https://github.com/droboports/unrar/releases/download/v5.1.7/unrar.tgz"
+        "size": 7123147,
+        "download_count": 1,
+        "created_at": "2015-02-24T13:01:23Z",
+        "updated_at": "2015-02-24T13:02:23Z",
+        "browser_download_url": "https://github.com/droboports/imagemagick/releases/download/v6.9.0-7/imagemagick.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/unrar/tarball/v5.1.7",
-    "zipball_url": "https://api.github.com/repos/droboports/unrar/zipball/v5.1.7",
-    "body": ""
+    "tarball_url": "https://api.github.com/repos/droboports/imagemagick/tarball/v6.9.0-7",
+    "zipball_url": "https://api.github.com/repos/droboports/imagemagick/zipball/v6.9.0-7",
+    "body": "This is a command-line app. To use it please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh).\r\n\r\nThis version supports png, jpeg, and tiff files."
   }
 ]
