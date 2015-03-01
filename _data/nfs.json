@@ -28,13 +28,13 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": true,
-    "created_at": "2015-02-21T22:23:09Z",
-    "published_at": "2015-02-23T15:03:32Z",
+    "prerelease": false,
+    "created_at": "2015-02-28T23:56:37Z",
+    "published_at": "2015-03-05T18:58:03Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/nfs/releases/assets/436577",
-        "id": 436577,
+        "url": "https://api.github.com/repos/droboports/nfs/releases/assets/455031",
+        "id": 455031,
         "name": "nfs.tgz",
         "label": null,
         "uploader": {
@@ -58,16 +58,16 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 663138,
-        "download_count": 11,
-        "created_at": "2015-02-23T15:03:15Z",
-        "updated_at": "2015-02-23T15:03:22Z",
+        "size": 668252,
+        "download_count": 0,
+        "created_at": "2015-03-05T18:41:45Z",
+        "updated_at": "2015-03-05T18:41:53Z",
         "browser_download_url": "https://github.com/droboports/nfs/releases/download/v1.3.2-fs/nfs.tgz"
       }
     ],
     "tarball_url": "https://api.github.com/repos/droboports/nfs/tarball/v1.3.2-fs",
     "zipball_url": "https://api.github.com/repos/droboports/nfs/zipball/v1.3.2-fs",
-    "body": "The default configuration exports the Public share for any and all clients:\r\n```\r\n/mnt/DroboFS/Shares/Public 0.0.0.0/0(rw,insecure,no_subtree_check,all_squash,anonuid=99,anongid=99)\r\n```\r\n\r\nTo change the exports, edit the file `/mnt/DroboFS/Shares/DroboApps/nfs/etc/exports`, then call `/mnt/DroboFS/Shares/DroboApps/nfs/service.sh reload`.\r\n\r\nChangelog: This release contains fixes for issues #1 and #3."
+    "body": "The default configuration exports the Public share for any and all clients:\r\n```\r\n/mnt/DroboFS/Shares/Public 0.0.0.0/0(rw,insecure,no_subtree_check,all_squash,anonuid=99,anongid=99)\r\n```\r\n\r\nTo change the exports, edit the file `/mnt/DroboFS/Shares/DroboApps/nfs/etc/exports`, then call `/mnt/DroboFS/Shares/DroboApps/nfs/service.sh reload`.\r\n\r\nChangelog: This release contains fixes for issues #1, #2, and #3."
   },
   {
     "url": "https://api.github.com/repos/droboports/nfs/releases/947175",
@@ -99,12 +99,12 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-02-13T19:32:57Z",
-    "published_at": "2015-02-13T20:45:06Z",
+    "created_at": "2015-02-28T21:55:19Z",
+    "published_at": "2015-03-05T16:42:32Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/nfs/releases/assets/422341",
-        "id": 422341,
+        "url": "https://api.github.com/repos/droboports/nfs/releases/assets/454659",
+        "id": 454659,
         "name": "nfs.tgz",
         "label": null,
         "uploader": {
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 2145657,
-        "download_count": 47,
-        "created_at": "2015-02-13T20:44:29Z",
-        "updated_at": "2015-02-13T20:44:48Z",
+        "size": 2771584,
+        "download_count": 3,
+        "created_at": "2015-03-05T16:41:53Z",
+        "updated_at": "2015-03-05T16:42:18Z",
         "browser_download_url": "https://github.com/droboports/nfs/releases/download/v1.3.2/nfs.tgz"
       }
     ],
     "tarball_url": "https://api.github.com/repos/droboports/nfs/tarball/v1.3.2",
     "zipball_url": "https://api.github.com/repos/droboports/nfs/zipball/v1.3.2",
-    "body": "The default configuration exports the Public share for any and all clients on both IPv4 and IPv6:\r\n```\r\n/mnt/DroboFS/Shares/Public 0.0.0.0/0(rw,insecure,no_subtree_check,all_squash,anonuid=99,anongid=99)\r\n/mnt/DroboFS/Shares/Public ::/128(rw,insecure,no_subtree_check,all_squash,anonuid=99,anongid=99)\r\n```\r\n\r\nTo change the exports, edit the file `/mnt/DroboFS/Shares/DroboApps/nfs/etc/exports`, then call `/mnt/DroboFS/Shares/DroboApps/nfs/service.sh reload`."
+    "body": "The default configuration exports the Public share for any and all clients on both IPv4 and IPv6:\r\n```\r\n/mnt/DroboFS/Shares/Public 0.0.0.0/0(rw,insecure,no_subtree_check,all_squash,anonuid=99,anongid=99)\r\n/mnt/DroboFS/Shares/Public ::/128(rw,insecure,no_subtree_check,all_squash,anonuid=99,anongid=99)\r\n```\r\n\r\nTo change the exports, edit the file `/mnt/DroboFS/Shares/DroboApps/nfs/etc/exports`, then call `/mnt/DroboFS/Shares/DroboApps/nfs/service.sh reload`.\r\n\r\nChangelog: This version fixes issue #2."
   }
 ]

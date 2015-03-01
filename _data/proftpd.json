@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 7825224,
-        "download_count": 0,
+        "download_count": 48,
         "created_at": "2015-02-27T03:11:02Z",
         "updated_at": "2015-02-27T03:12:08Z",
         "browser_download_url": "https://github.com/droboports/proftpd/releases/download/v1.3.5/proftpd.tgz"
