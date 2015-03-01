@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 22178835,
-        "download_count": 44,
+        "download_count": 45,
         "created_at": "2015-02-02T14:22:42Z",
         "updated_at": "2015-02-02T14:25:37Z",
         "browser_download_url": "https://github.com/droboports/crashplan/releases/download/v3.7.0-fs/crashplan.tgz"
