@@ -3,9 +3,9 @@
     "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/946096",
     "assets_url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/946096/assets",
     "upload_url": "https://uploads.github.com/repos/droboports/kernel-drobo5n/releases/946096/assets{?name}",
-    "html_url": "https://github.com/droboports/kernel-drobo5n/releases/tag/v3.2.27-1",
+    "html_url": "https://github.com/droboports/kernel-drobo5n/releases/tag/v3.2.27-3.2.0",
     "id": 946096,
-    "tag_name": "v3.2.27-1",
+    "tag_name": "v3.2.27-3.2.0",
     "target_commitish": "master",
     "name": "Kernel 3.2.27, firmware 3.2.0",
     "draft": false,
@@ -29,8 +29,8 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-02-12T15:50:59Z",
-    "published_at": "2015-02-12T16:24:08Z",
+    "created_at": "2015-03-01T20:05:27Z",
+    "published_at": "2015-03-06T14:52:16Z",
     "assets": [
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420042",
@@ -62,7 +62,7 @@
         "download_count": 2,
         "created_at": "2015-02-12T16:22:43Z",
         "updated_at": "2015-02-12T16:22:45Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/arc4.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/arc4.ko"
       },
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420043",
@@ -94,7 +94,7 @@
         "download_count": 4,
         "created_at": "2015-02-12T16:23:06Z",
         "updated_at": "2015-02-12T16:23:49Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/cifs.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/cifs.ko"
       },
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420031",
@@ -126,7 +126,7 @@
         "download_count": 3,
         "created_at": "2015-02-12T16:18:56Z",
         "updated_at": "2015-02-12T16:18:59Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/ecb.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/ecb.ko"
       },
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420037",
@@ -158,7 +158,7 @@
         "download_count": 6,
         "created_at": "2015-02-12T16:20:16Z",
         "updated_at": "2015-02-12T16:20:23Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/fuse.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/fuse.ko"
       },
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420033",
@@ -190,7 +190,7 @@
         "download_count": 2,
         "created_at": "2015-02-12T16:19:27Z",
         "updated_at": "2015-02-12T16:19:30Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/nbd.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/nbd.ko"
       },
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420038",
@@ -219,10 +219,10 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1379539,
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2015-02-12T16:20:30Z",
         "updated_at": "2015-02-12T16:20:42Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/nfsd.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/nfsd.ko"
       },
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420032",
@@ -254,7 +254,7 @@
         "download_count": 2,
         "created_at": "2015-02-12T16:19:06Z",
         "updated_at": "2015-02-12T16:19:08Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/pcbc.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/pcbc.ko"
       },
       {
         "url": "https://api.github.com/repos/droboports/kernel-drobo5n/releases/assets/420034",
@@ -286,11 +286,11 @@
         "download_count": 4,
         "created_at": "2015-02-12T16:19:49Z",
         "updated_at": "2015-02-12T16:19:52Z",
-        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-1/tun.ko"
+        "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/tun.ko"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/kernel-drobo5n/tarball/v3.2.27-1",
-    "zipball_url": "https://api.github.com/repos/droboports/kernel-drobo5n/zipball/v3.2.27-1",
+    "tarball_url": "https://api.github.com/repos/droboports/kernel-drobo5n/tarball/v3.2.27-3.2.0",
+    "zipball_url": "https://api.github.com/repos/droboports/kernel-drobo5n/zipball/v3.2.27-3.2.0",
     "body": "Kernel configuration updated to firmware 3.2.0.\r\n\r\nSee the [wiki](https://github.com/droboports/kernel-drobo5n/wiki) for compile instructions."
   },
   {
@@ -705,7 +705,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1507397,
-        "download_count": 52,
+        "download_count": 53,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:19Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/nfsd.ko"
