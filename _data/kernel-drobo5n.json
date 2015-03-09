@@ -155,7 +155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 723863,
-        "download_count": 6,
+        "download_count": 8,
         "created_at": "2015-02-12T16:20:16Z",
         "updated_at": "2015-02-12T16:20:23Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/fuse.ko"
@@ -283,7 +283,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 226122,
-        "download_count": 4,
+        "download_count": 5,
         "created_at": "2015-02-12T16:19:49Z",
         "updated_at": "2015-02-12T16:19:52Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/tun.ko"

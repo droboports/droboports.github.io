@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3477647,
-        "download_count": 688,
+        "download_count": 708,
         "created_at": "2014-11-27T12:42:20Z",
         "updated_at": "2014-11-27T12:43:34Z",
         "browser_download_url": "https://github.com/droboports/openssh/releases/download/v6.7/openssh.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3422692,
-        "download_count": 215,
+        "download_count": 225,
         "created_at": "2015-01-03T11:26:01Z",
         "updated_at": "2015-01-03T11:27:14Z",
         "browser_download_url": "https://github.com/droboports/openssh/releases/download/v6.7-fs/openssh.tgz"

@@ -123,7 +123,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 7033,
-        "download_count": 18,
+        "download_count": 19,
         "created_at": "2014-11-07T09:22:10Z",
         "updated_at": "2014-11-07T09:22:14Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/exportfs.ko"
@@ -283,7 +283,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 144343,
-        "download_count": 32,
+        "download_count": 34,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:11Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/nfsd.ko"
@@ -347,7 +347,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 14050,
-        "download_count": 17,
+        "download_count": 18,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:10Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/tun.ko"

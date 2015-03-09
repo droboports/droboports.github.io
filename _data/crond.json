@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1060,
-        "download_count": 43,
+        "download_count": 45,
         "created_at": "2014-11-24T11:05:30Z",
         "updated_at": "2014-11-24T11:05:31Z",
         "browser_download_url": "https://github.com/droboports/crond/releases/download/v1.14.2-fs/crond.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1056,
-        "download_count": 86,
+        "download_count": 90,
         "created_at": "2014-11-24T10:58:27Z",
         "updated_at": "2014-11-24T10:58:28Z",
         "browser_download_url": "https://github.com/droboports/crond/releases/download/v1.20.2/crond.tgz"

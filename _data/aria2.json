@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/java7/releases/722763",
-    "assets_url": "https://api.github.com/repos/droboports/java7/releases/722763/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/722763/assets{?name}",
-    "html_url": "https://github.com/droboports/java7/releases/tag/v7.71-fs",
-    "id": 722763,
-    "tag_name": "v7.71-fs",
+    "url": "https://api.github.com/repos/droboports/aria2/releases/1031138",
+    "assets_url": "https://api.github.com/repos/droboports/aria2/releases/1031138/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/aria2/releases/1031138/assets{?name}",
+    "html_url": "https://github.com/droboports/aria2/releases/tag/v1.17.1-fs",
+    "id": 1031138,
+    "tag_name": "v1.17.1-fs",
     "target_commitish": "drobofs",
-    "name": "Java 7 update 71 for DroboFS",
+    "name": "Aria2 for the DroboFS",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-21T08:58:01Z",
-    "published_at": "2014-11-21T09:01:50Z",
+    "created_at": "2015-03-09T19:33:38Z",
+    "published_at": "2015-03-09T19:34:32Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java7/releases/assets/314196",
-        "id": 314196,
-        "name": "java7.tgz",
+        "url": "https://api.github.com/repos/droboports/aria2/releases/assets/461602",
+        "id": 461602,
+        "name": "aria2.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,26 +58,26 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 33539108,
-        "download_count": 39,
-        "created_at": "2014-11-21T09:00:21Z",
-        "updated_at": "2014-11-21T09:01:11Z",
-        "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.71-fs/java7.tgz"
+        "size": 6230147,
+        "download_count": 0,
+        "created_at": "2015-03-09T19:32:04Z",
+        "updated_at": "2015-03-09T19:33:03Z",
+        "browser_download_url": "https://github.com/droboports/aria2/releases/download/v1.17.1-fs/aria2.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/java7/tarball/v7.71-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/java7/zipball/v7.71-fs",
-    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
+    "tarball_url": "https://api.github.com/repos/droboports/aria2/tarball/v1.17.1-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/aria2/zipball/v1.17.1-fs",
+    "body": "Once installed, the aria2 web interface is reachable at `http://drobo-fs:6880/` using login `root`, password `root`. To change the web interface password, connect using SSH and type:\r\n```\r\ncd /mnt/DroboFS/Shares/DroboApps/aria2\r\n./libexec/web_server -A ./etc/htpasswd Aria2 root <new password>\r\n```\r\n"
   },
   {
-    "url": "https://api.github.com/repos/droboports/java7/releases/720945",
-    "assets_url": "https://api.github.com/repos/droboports/java7/releases/720945/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/720945/assets{?name}",
-    "html_url": "https://github.com/droboports/java7/releases/tag/v7.71",
-    "id": 720945,
-    "tag_name": "v7.71",
+    "url": "https://api.github.com/repos/droboports/aria2/releases/1031117",
+    "assets_url": "https://api.github.com/repos/droboports/aria2/releases/1031117/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/aria2/releases/1031117/assets{?name}",
+    "html_url": "https://github.com/droboports/aria2/releases/tag/v1.17.1",
+    "id": 1031117,
+    "tag_name": "v1.17.1",
     "target_commitish": "master",
-    "name": "Java 7 update 71 for Drobo5N",
+    "name": "Aria2 for the Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -99,13 +99,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-11-20T17:00:11Z",
-    "published_at": "2014-11-21T09:01:57Z",
+    "created_at": "2015-03-09T17:14:54Z",
+    "published_at": "2015-03-09T19:52:26Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java7/releases/assets/313374",
-        "id": 313374,
-        "name": "java7.tgz",
+        "url": "https://api.github.com/repos/droboports/aria2/releases/assets/461623",
+        "id": 461623,
+        "name": "aria2.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -128,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 33990876,
-        "download_count": 118,
-        "created_at": "2014-11-20T17:03:11Z",
-        "updated_at": "2014-11-20T17:03:51Z",
-        "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.71/java7.tgz"
+        "size": 5801007,
+        "download_count": 0,
+        "created_at": "2015-03-09T19:50:29Z",
+        "updated_at": "2015-03-09T19:51:46Z",
+        "browser_download_url": "https://github.com/droboports/aria2/releases/download/v1.17.1/aria2.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/java7/tarball/v7.71",
-    "zipball_url": "https://api.github.com/repos/droboports/java7/zipball/v7.71",
-    "body": "By downloading and installing this app you are agreeing to the [Oracle Binary Code License Agreement](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)."
+    "tarball_url": "https://api.github.com/repos/droboports/aria2/tarball/v1.17.1",
+    "zipball_url": "https://api.github.com/repos/droboports/aria2/zipball/v1.17.1",
+    "body": "Once installed, the aria2 web interface is reachable at `http://drobo-5n:6880/` using login `root`, password `root`. To change the web interface password, connect using SSH and type:\r\n```\r\ncd /mnt/DroboFS/Shares/DroboApps/aria2\r\n./libexec/web_server -A ./etc/htpasswd Aria2 root <new password>\r\n```\r\n"
   }
 ]

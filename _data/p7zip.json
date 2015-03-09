@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1743622,
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2015-01-23T20:24:10Z",
         "updated_at": "2015-01-23T20:24:47Z",
         "browser_download_url": "https://github.com/droboports/p7zip/releases/download/v9.20.1-fs/p7zip.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1634027,
-        "download_count": 34,
+        "download_count": 35,
         "created_at": "2015-01-23T20:20:37Z",
         "updated_at": "2015-01-23T20:20:57Z",
         "browser_download_url": "https://github.com/droboports/p7zip/releases/download/v9.20.1/p7zip.tgz"
