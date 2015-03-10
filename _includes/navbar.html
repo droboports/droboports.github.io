@@ -1,7 +1,8 @@
 <ul class="nav navbar-nav">
   <li {% if page.url == "/" or page.url == "/index.html" %}class="active"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
   <li {% if page.url contains "about" %}class="active"{% endif %}><a href="{{ site.baseurl }}/about/">About</a></li>
-  <li class="dropdown {% if page.url contains "app-repository" %}active{% endif %}"><a href="{{ site.baseurl }}/app-repository/" class="dropdown-toggle" data-toggle="dropdown">App Repository <span class="caret"></span></a>
+  <li class="dropdown {% if page.url contains "app-repository" %}active{% endif %}">
+    <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="{{ site.baseurl }}/app-repository/">App Repository <span class="caret"></span></a>
     <ul class="dropdown-menu" role="menu">
       <li role="presentation"><a role="menuitem" href="{{ site.baseurl }}/app-repository/">Show all apps</a></li>
       <li role="presentation" class="divider"></li>
@@ -11,12 +12,12 @@
       {% if curletter != oldletter %}
         {% unless forloop.first %}</ul>
       </li>{% endunless %}
-      <li class="dropdown-submenu" data-toggle="dropdown">
-        <a tabindex="-1" href="#">{{ curletter }}</a>
-        <ul class="dropdown-menu">
+      <li class="dropdown-submenu">
+        <a class="dropdown-toggle" role="button" data-toggle="dropdown" tabindex="-1">{{ curletter }}</a>
+        <ul class="dropdown-menu" role="menu">
       {% capture oldletter %}{{curletter}}{% endcapture %}
       {% endif %}
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          <li role="presentation"><a role="menuitem" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
         </ul>
       </li>
