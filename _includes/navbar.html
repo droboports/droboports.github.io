@@ -3,12 +3,23 @@
   <li {% if page.url contains "about" %}class="active"{% endif %}><a href="{{ site.baseurl }}/about/">About</a></li>
   <li class="dropdown {% if page.url contains "app-repository" %}active{% endif %}"><a href="{{ site.baseurl }}/app-repository/" class="dropdown-toggle" data-toggle="dropdown">App Repository <span class="caret"></span></a>
     <ul class="dropdown-menu" role="menu">
-      <li><a href="{{ site.baseurl }}/app-repository/">Show all apps</a></li>
-      <li class="divider"></li>
+      <li role="presentation"><a role="menuitem" href="{{ site.baseurl }}/app-repository/">Show all apps</a></li>
+      <li role="presentation" class="divider"></li>
       {% assign sorted_posts = (site.posts | where: "layout", "app" | sort: "appname") %}
       {% for post in sorted_posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
+      {% capture curletter %}{{post.appname | truncate: 1, ''}}{% endcapture %}
+      {% if curletter != oldletter %}
+        {% unless forloop.first %}</ul>
+      </li>{% endunless %}
+      <li class="dropdown-submenu" data-toggle="dropdown">
+        <a tabindex="-1" href="#">{{ curletter }}</a>
+        <ul class="dropdown-menu">
+      {% capture oldletter %}{{curletter}}{% endcapture %}
+      {% endif %}
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+        </ul>
+      </li>
     </ul>
   </li>
   <li {% if page.url contains "cross-tool-repository" %}class="active"{% endif %}><a href="{{ site.baseurl }}/cross-tool-repository/">Cross-tool Repository</a></li>
