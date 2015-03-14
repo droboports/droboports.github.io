@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 6230147,
-        "download_count": 0,
+        "download_count": 2,
         "created_at": "2015-03-09T19:32:04Z",
         "updated_at": "2015-03-09T19:33:03Z",
         "browser_download_url": "https://github.com/droboports/aria2/releases/download/v1.17.1-fs/aria2.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 5801007,
-        "download_count": 0,
+        "download_count": 7,
         "created_at": "2015-03-09T19:50:29Z",
         "updated_at": "2015-03-09T19:51:46Z",
         "browser_download_url": "https://github.com/droboports/aria2/releases/download/v1.17.1/aria2.tgz"

@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 37769179,
-        "download_count": 113,
+        "download_count": 123,
         "created_at": "2014-11-20T17:04:13Z",
         "updated_at": "2014-11-20T17:04:55Z",
         "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.6/java8.tgz"

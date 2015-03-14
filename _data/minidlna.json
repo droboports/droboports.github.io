@@ -29,12 +29,12 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-01-31T22:40:32Z",
-    "published_at": "2015-02-01T21:39:08Z",
+    "created_at": "2015-03-14T20:10:24Z",
+    "published_at": "2015-03-16T18:09:51Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/minidlna/releases/assets/403842",
-        "id": 403842,
+        "url": "https://api.github.com/repos/droboports/minidlna/releases/assets/474919",
+        "id": 474919,
         "name": "minidlna.tgz",
         "label": null,
         "uploader": {
@@ -58,10 +58,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 5879363,
-        "download_count": 113,
-        "created_at": "2015-02-01T21:36:36Z",
-        "updated_at": "2015-02-01T21:38:55Z",
+        "size": 5879947,
+        "download_count": 0,
+        "created_at": "2015-03-16T18:08:30Z",
+        "updated_at": "2015-03-16T18:09:20Z",
         "browser_download_url": "https://github.com/droboports/minidlna/releases/download/v1.1.4-fs/minidlna.tgz"
       }
     ],
@@ -99,12 +99,12 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-01-24T00:17:07Z",
-    "published_at": "2015-02-01T21:48:46Z",
+    "created_at": "2015-03-14T20:05:08Z",
+    "published_at": "2015-03-16T16:38:53Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/minidlna/releases/assets/403851",
-        "id": 403851,
+        "url": "https://api.github.com/repos/droboports/minidlna/releases/assets/474717",
+        "id": 474717,
         "name": "minidlna.tgz",
         "label": null,
         "uploader": {
@@ -128,10 +128,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 5873703,
-        "download_count": 42,
-        "created_at": "2015-02-01T21:45:48Z",
-        "updated_at": "2015-02-01T21:48:37Z",
+        "size": 5874209,
+        "download_count": 0,
+        "created_at": "2015-03-16T16:37:34Z",
+        "updated_at": "2015-03-16T16:38:24Z",
         "browser_download_url": "https://github.com/droboports/minidlna/releases/download/v1.1.4/minidlna.tgz"
       }
     ],

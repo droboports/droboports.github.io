@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 2012760,
-        "download_count": 39,
+        "download_count": 40,
         "created_at": "2014-12-03T12:29:38Z",
         "updated_at": "2014-12-03T12:29:44Z",
         "browser_download_url": "https://github.com/droboports/e2fsprogs/releases/download/v1.42.12/e2fsprogs.tgz"

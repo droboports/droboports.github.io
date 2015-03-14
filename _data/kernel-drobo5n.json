@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 39611,
-        "download_count": 2,
+        "download_count": 5,
         "created_at": "2015-02-12T16:22:43Z",
         "updated_at": "2015-02-12T16:22:45Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/arc4.ko"
@@ -91,7 +91,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3520006,
-        "download_count": 4,
+        "download_count": 8,
         "created_at": "2015-02-12T16:23:06Z",
         "updated_at": "2015-02-12T16:23:49Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/cifs.ko"
@@ -123,7 +123,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 60833,
-        "download_count": 3,
+        "download_count": 6,
         "created_at": "2015-02-12T16:18:56Z",
         "updated_at": "2015-02-12T16:18:59Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/ecb.ko"
@@ -155,7 +155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 723863,
-        "download_count": 8,
+        "download_count": 15,
         "created_at": "2015-02-12T16:20:16Z",
         "updated_at": "2015-02-12T16:20:23Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/fuse.ko"
@@ -187,7 +187,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 207690,
-        "download_count": 2,
+        "download_count": 5,
         "created_at": "2015-02-12T16:19:27Z",
         "updated_at": "2015-02-12T16:19:30Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/nbd.ko"
@@ -219,7 +219,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1379539,
-        "download_count": 12,
+        "download_count": 17,
         "created_at": "2015-02-12T16:20:30Z",
         "updated_at": "2015-02-12T16:20:42Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/nfsd.ko"
@@ -251,7 +251,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 63958,
-        "download_count": 2,
+        "download_count": 5,
         "created_at": "2015-02-12T16:19:06Z",
         "updated_at": "2015-02-12T16:19:08Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/pcbc.ko"
@@ -283,7 +283,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 226122,
-        "download_count": 5,
+        "download_count": 9,
         "created_at": "2015-02-12T16:19:49Z",
         "updated_at": "2015-02-12T16:19:52Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/tun.ko"
@@ -545,7 +545,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 122200,
-        "download_count": 10,
+        "download_count": 11,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:16Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/hmac.ko"
@@ -705,7 +705,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1507397,
-        "download_count": 53,
+        "download_count": 54,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:19Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/nfsd.ko"
@@ -737,7 +737,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 245127,
-        "download_count": 15,
+        "download_count": 16,
         "created_at": "2014-11-07T09:25:13Z",
         "updated_at": "2014-11-07T09:25:15Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/tun.ko"
