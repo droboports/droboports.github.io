@@ -155,7 +155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 723863,
-        "download_count": 15,
+        "download_count": 18,
         "created_at": "2015-02-12T16:20:16Z",
         "updated_at": "2015-02-12T16:20:23Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/fuse.ko"
@@ -219,7 +219,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1379539,
-        "download_count": 17,
+        "download_count": 19,
         "created_at": "2015-02-12T16:20:30Z",
         "updated_at": "2015-02-12T16:20:42Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27-3.2.0/nfsd.ko"
@@ -673,7 +673,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 225025,
-        "download_count": 14,
+        "download_count": 15,
         "created_at": "2014-11-07T09:25:14Z",
         "updated_at": "2014-11-07T09:25:20Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobo5n/releases/download/v3.2.27/nbd.ko"
