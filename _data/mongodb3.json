@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083",
-    "assets_url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/python-cheetah/releases/593083/assets{?name}",
-    "html_url": "https://github.com/droboports/python-cheetah/releases/tag/v2.4.4",
-    "id": 593083,
-    "tag_name": "v2.4.4",
+    "url": "https://api.github.com/repos/droboports/mongodb3/releases/1301417",
+    "assets_url": "https://api.github.com/repos/droboports/mongodb3/releases/1301417/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/mongodb3/releases/1301417/assets{?name}",
+    "html_url": "https://github.com/droboports/mongodb3/releases/tag/v3.0.2",
+    "id": 1301417,
+    "tag_name": "v3.0.2",
     "target_commitish": "master",
-    "name": "Cheetah 2.4.4 for Drobo5N",
+    "name": "MondoDB 3.0.2 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -28,14 +28,14 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": false,
-    "created_at": "2014-09-30T14:05:16Z",
-    "published_at": "2014-10-02T14:48:43Z",
+    "prerelease": true,
+    "created_at": "2015-05-14T13:50:05Z",
+    "published_at": "2015-05-15T16:13:59Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/python-cheetah/releases/assets/256698",
-        "id": 256698,
-        "name": "Cheetah-2.4.4-py2.7-linux-armv7l.egg",
+        "url": "https://api.github.com/repos/droboports/mongodb3/releases/assets/583999",
+        "id": 583999,
+        "name": "mongod",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,15 +58,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 406893,
-        "download_count": 81,
-        "created_at": "2014-10-02T14:48:38Z",
-        "updated_at": "2014-10-02T14:48:40Z",
-        "browser_download_url": "https://github.com/droboports/python-cheetah/releases/download/v2.4.4/Cheetah-2.4.4-py2.7-linux-armv7l.egg"
+        "size": 12249252,
+        "download_count": 4,
+        "created_at": "2015-05-15T16:11:59Z",
+        "updated_at": "2015-05-15T16:12:33Z",
+        "browser_download_url": "https://github.com/droboports/mongodb3/releases/download/v3.0.2/mongod"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/python-cheetah/tarball/v2.4.4",
-    "zipball_url": "https://api.github.com/repos/droboports/python-cheetah/zipball/v2.4.4",
-    "body": ""
+    "tarball_url": "https://api.github.com/repos/droboports/mongodb3/tarball/v3.0.2",
+    "zipball_url": "https://api.github.com/repos/droboports/mongodb3/zipball/v3.0.2",
+    "body": "This is a preliminary version of MongoDB for Drobo5N. This release has the following limitations:\r\n\r\n  - No support for V8 script engine (it does not cross-compile to ARM);\r\n  - No support for wiredtiger storage engine (it does not cross-compile to ARM);\r\n  - No mongo shell.\r\n  - Only `mongod` is compiled;\r\n"
   }
 ]

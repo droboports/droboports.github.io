@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 5879947,
-        "download_count": 7,
+        "download_count": 103,
         "created_at": "2015-03-16T18:08:30Z",
         "updated_at": "2015-03-16T18:09:20Z",
         "browser_download_url": "https://github.com/droboports/minidlna/releases/download/v1.1.4-fs/minidlna.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 5874209,
-        "download_count": 3,
+        "download_count": 65,
         "created_at": "2015-03-16T16:37:34Z",
         "updated_at": "2015-03-16T16:38:24Z",
         "browser_download_url": "https://github.com/droboports/minidlna/releases/download/v1.1.4/minidlna.tgz"

@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083",
-    "assets_url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/python-cheetah/releases/593083/assets{?name}",
-    "html_url": "https://github.com/droboports/python-cheetah/releases/tag/v2.4.4",
-    "id": 593083,
-    "tag_name": "v2.4.4",
+    "url": "https://api.github.com/repos/droboports/unifi/releases/1309968",
+    "assets_url": "https://api.github.com/repos/droboports/unifi/releases/1309968/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/unifi/releases/1309968/assets{?name}",
+    "html_url": "https://github.com/droboports/unifi/releases/tag/v3.2.10",
+    "id": 1309968,
+    "tag_name": "v3.2.10",
     "target_commitish": "master",
-    "name": "Cheetah 2.4.4 for Drobo5N",
+    "name": "UniFi Controller 3.2.10 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-09-30T14:05:16Z",
-    "published_at": "2014-10-02T14:48:43Z",
+    "created_at": "2015-05-18T03:36:00Z",
+    "published_at": "2015-05-18T21:33:32Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/python-cheetah/releases/assets/256698",
-        "id": 256698,
-        "name": "Cheetah-2.4.4-py2.7-linux-armv7l.egg",
+        "url": "https://api.github.com/repos/droboports/unifi/releases/assets/588621",
+        "id": 588621,
+        "name": "unifi.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,15 +58,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 406893,
-        "download_count": 81,
-        "created_at": "2014-10-02T14:48:38Z",
-        "updated_at": "2014-10-02T14:48:40Z",
-        "browser_download_url": "https://github.com/droboports/python-cheetah/releases/download/v2.4.4/Cheetah-2.4.4-py2.7-linux-armv7l.egg"
+        "size": 40684739,
+        "download_count": 0,
+        "created_at": "2015-05-18T21:31:41Z",
+        "updated_at": "2015-05-18T21:33:17Z",
+        "browser_download_url": "https://github.com/droboports/unifi/releases/download/v3.2.10/unifi.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/python-cheetah/tarball/v2.4.4",
-    "zipball_url": "https://api.github.com/repos/droboports/python-cheetah/zipball/v2.4.4",
-    "body": ""
+    "tarball_url": "https://api.github.com/repos/droboports/unifi/tarball/v3.2.10",
+    "zipball_url": "https://api.github.com/repos/droboports/unifi/zipball/v3.2.10",
+    "body": "This DroboApp requires [java8](https://github.com/droboports/java8/releases) to be installed.\r\n\r\nAfter install, the UniFi Controller will be accessible at `https://drobo-5n:8043/`.\r\n\r\nDefault configuration for other ports:\r\n```\r\nportal.http.port=8880\r\nportal.https.port=8843\r\nunifi.https.port=8043\r\nunifi.http.port=8883\r\nunifi.shutdown.port=8884\r\nunifi.db.port=8887\r\n```\r\n"
   }
 ]

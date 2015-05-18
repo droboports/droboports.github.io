@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 2075436,
-        "download_count": 12,
+        "download_count": 55,
         "created_at": "2015-03-06T22:32:41Z",
         "updated_at": "2015-03-06T22:33:00Z",
         "browser_download_url": "https://github.com/droboports/wget/releases/download/v1.16.2-fs/wget.tgz"
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 2047893,
-        "download_count": 15,
+        "download_count": 87,
         "created_at": "2015-03-06T22:25:03Z",
         "updated_at": "2015-03-06T22:25:21Z",
         "browser_download_url": "https://github.com/droboports/wget/releases/download/v1.16.2/wget.tgz"

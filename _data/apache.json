@@ -1,13 +1,13 @@
 [
   {
-    "url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083",
-    "assets_url": "https://api.github.com/repos/droboports/python-cheetah/releases/593083/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/python-cheetah/releases/593083/assets{?name}",
-    "html_url": "https://github.com/droboports/python-cheetah/releases/tag/v2.4.4",
-    "id": 593083,
-    "tag_name": "v2.4.4",
+    "url": "https://api.github.com/repos/droboports/apache/releases/1204321",
+    "assets_url": "https://api.github.com/repos/droboports/apache/releases/1204321/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/apache/releases/1204321/assets{?name}",
+    "html_url": "https://github.com/droboports/apache/releases/tag/v2.4.12",
+    "id": 1204321,
+    "tag_name": "v2.4.12",
     "target_commitish": "master",
-    "name": "Cheetah 2.4.4 for Drobo5N",
+    "name": "Apache 2.4.12 for Drobo5N",
     "draft": false,
     "author": {
       "login": "ricardopadilha",
@@ -29,13 +29,13 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-09-30T14:05:16Z",
-    "published_at": "2014-10-02T14:48:43Z",
+    "created_at": "2015-04-23T00:29:16Z",
+    "published_at": "2015-04-23T01:10:13Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/python-cheetah/releases/assets/256698",
-        "id": 256698,
-        "name": "Cheetah-2.4.4-py2.7-linux-armv7l.egg",
+        "url": "https://api.github.com/repos/droboports/apache/releases/assets/540169",
+        "id": 540169,
+        "name": "apache.tgz",
         "label": null,
         "uploader": {
           "login": "ricardopadilha",
@@ -58,15 +58,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 406893,
-        "download_count": 81,
-        "created_at": "2014-10-02T14:48:38Z",
-        "updated_at": "2014-10-02T14:48:40Z",
-        "browser_download_url": "https://github.com/droboports/python-cheetah/releases/download/v2.4.4/Cheetah-2.4.4-py2.7-linux-armv7l.egg"
+        "size": 33643602,
+        "download_count": 0,
+        "created_at": "2015-04-23T01:04:26Z",
+        "updated_at": "2015-04-23T01:08:57Z",
+        "browser_download_url": "https://github.com/droboports/apache/releases/download/v2.4.12/apache.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/python-cheetah/tarball/v2.4.4",
-    "zipball_url": "https://api.github.com/repos/droboports/python-cheetah/zipball/v2.4.4",
-    "body": ""
+    "tarball_url": "https://api.github.com/repos/droboports/apache/tarball/v2.4.12",
+    "zipball_url": "https://api.github.com/repos/droboports/apache/zipball/v2.4.12",
+    "body": "This is a drop-in replacement for the official `apache` DroboApp.\r\n\r\nOnce installed, the HTTP server will be accessible at `http://drobo-5n:8080/`."
   }
 ]
