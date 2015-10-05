@@ -1,3 +1,72 @@
 [
-
+  {
+    "url": "https://api.github.com/repos/droboports/ruby2/releases/1728928",
+    "assets_url": "https://api.github.com/repos/droboports/ruby2/releases/1728928/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/ruby2/releases/1728928/assets{?name,label}",
+    "html_url": "https://github.com/droboports/ruby2/releases/tag/v2.2.3",
+    "id": 1728928,
+    "tag_name": "v2.2.3",
+    "target_commitish": "master",
+    "name": "Ruby 2.2.3 for Drobo5N",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": false,
+    "created_at": "2015-08-27T00:53:53Z",
+    "published_at": "2015-08-27T03:39:35Z",
+    "assets": [
+      {
+        "url": "https://api.github.com/repos/droboports/ruby2/releases/assets/820592",
+        "id": 820592,
+        "name": "ruby2.tgz",
+        "label": "",
+        "uploader": {
+          "login": "ricardopadilha",
+          "id": 1210756,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ricardopadilha",
+          "html_url": "https://github.com/ricardopadilha",
+          "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+          "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+          "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+          "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+          "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "content_type": "application/zip",
+        "state": "uploaded",
+        "size": 7017750,
+        "download_count": 0,
+        "created_at": "2015-08-27T03:39:18Z",
+        "updated_at": "2015-08-27T03:39:34Z",
+        "browser_download_url": "https://github.com/droboports/ruby2/releases/download/v2.2.3/ruby2.tgz"
+      }
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/ruby2/tarball/v2.2.3",
+    "zipball_url": "https://api.github.com/repos/droboports/ruby2/zipball/v2.2.3",
+    "body": "This is a command-line app, normally used as a dependency for other apps."
+  }
 ]

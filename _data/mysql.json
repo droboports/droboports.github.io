@@ -1,3 +1,72 @@
 [
-
+  {
+    "url": "https://api.github.com/repos/droboports/mysql/releases/1552778",
+    "assets_url": "https://api.github.com/repos/droboports/mysql/releases/1552778/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/mysql/releases/1552778/assets{?name,label}",
+    "html_url": "https://github.com/droboports/mysql/releases/tag/v5.6.26",
+    "id": 1552778,
+    "tag_name": "v5.6.26",
+    "target_commitish": "master",
+    "name": "MySQL 5.6.26 for Drobo5N",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": false,
+    "created_at": "2015-09-09T00:16:07Z",
+    "published_at": "2015-09-09T00:20:22Z",
+    "assets": [
+      {
+        "url": "https://api.github.com/repos/droboports/mysql/releases/assets/850562",
+        "id": 850562,
+        "name": "mysql.tgz",
+        "label": "",
+        "uploader": {
+          "login": "ricardopadilha",
+          "id": 1210756,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ricardopadilha",
+          "html_url": "https://github.com/ricardopadilha",
+          "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+          "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+          "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+          "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+          "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "content_type": "application/zip",
+        "state": "uploaded",
+        "size": 34832299,
+        "download_count": 1,
+        "created_at": "2015-09-09T00:18:35Z",
+        "updated_at": "2015-09-09T00:20:21Z",
+        "browser_download_url": "https://github.com/droboports/mysql/releases/download/v5.6.26/mysql.tgz"
+      }
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/mysql/tarball/v5.6.26",
+    "zipball_url": "https://api.github.com/repos/droboports/mysql/zipball/v5.6.26",
+    "body": "After installation, the web interface to MySQL will be accessible at `http://drobo-5n:8033/`. The root password can be obtained from Drobo Dashboard."
+  }
 ]

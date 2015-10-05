@@ -1,8 +1,47 @@
 [
   {
+    "url": "https://api.github.com/repos/droboports/couchpotato/releases/1518911",
+    "assets_url": "https://api.github.com/repos/droboports/couchpotato/releases/1518911/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/couchpotato/releases/1518911/assets{?name,label}",
+    "html_url": "https://github.com/droboports/couchpotato/releases/tag/v2.6.3.71",
+    "id": 1518911,
+    "tag_name": "v2.6.3.71",
+    "target_commitish": "master",
+    "name": "Couchpotato 2.6.3.71 for Drobo5N",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": false,
+    "created_at": "2015-07-10T04:48:23Z",
+    "published_at": "2015-07-10T05:09:02Z",
+    "assets": [
+
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/couchpotato/tarball/v2.6.3.71",
+    "zipball_url": "https://api.github.com/repos/droboports/couchpotato/zipball/v2.6.3.71",
+    "body": "This release is based on RuudBurger/CouchPotatoServer@69825f9dbdfc42d5e6fcebd89828e21ff36330fa.\r\n\r\nOnce installed, the web interface can be reached at `http://drobo-5n:8083/`."
+  },
+  {
     "url": "https://api.github.com/repos/droboports/couchpotato/releases/674124",
     "assets_url": "https://api.github.com/repos/droboports/couchpotato/releases/674124/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/couchpotato/releases/674124/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/couchpotato/releases/674124/assets{?name,label}",
     "html_url": "https://github.com/droboports/couchpotato/releases/tag/v2.6.0",
     "id": 674124,
     "tag_name": "v2.6.0",
@@ -59,7 +98,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3298089,
-        "download_count": 322,
+        "download_count": 381,
         "created_at": "2014-11-03T16:32:31Z",
         "updated_at": "2014-11-03T16:32:33Z",
         "browser_download_url": "https://github.com/droboports/couchpotato/releases/download/v2.6.0/couchpotato.tgz"

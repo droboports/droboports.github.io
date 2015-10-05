@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java7/releases/1240078",
     "assets_url": "https://api.github.com/repos/droboports/java7/releases/1240078/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/1240078/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/1240078/assets{?name,label}",
     "html_url": "https://github.com/droboports/java7/releases/tag/v7.75.13-fs",
     "id": 1240078,
     "tag_name": "v7.75.13-fs",
@@ -28,13 +28,13 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": true,
-    "created_at": "2015-05-14T18:50:08Z",
-    "published_at": "2015-05-14T19:05:04Z",
+    "prerelease": false,
+    "created_at": "2015-06-26T01:19:55Z",
+    "published_at": "2015-06-26T01:22:46Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java7/releases/assets/582212",
-        "id": 582212,
+        "url": "https://api.github.com/repos/droboports/java7/releases/assets/668437",
+        "id": 668437,
         "name": "java7.tgz",
         "label": null,
         "uploader": {
@@ -58,10 +58,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 33555299,
-        "download_count": 0,
-        "created_at": "2015-05-14T18:57:41Z",
-        "updated_at": "2015-05-14T18:58:52Z",
+        "size": 33555427,
+        "download_count": 4,
+        "created_at": "2015-06-26T01:20:41Z",
+        "updated_at": "2015-06-26T01:22:24Z",
         "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.75.13-fs/java7.tgz"
       }
     ],
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java7/releases/1240055",
     "assets_url": "https://api.github.com/repos/droboports/java7/releases/1240055/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/1240055/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/1240055/assets{?name,label}",
     "html_url": "https://github.com/droboports/java7/releases/tag/v7.75.13",
     "id": 1240055,
     "tag_name": "v7.75.13",
@@ -99,14 +99,14 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-05-14T18:42:46Z",
-    "published_at": "2015-05-14T19:04:56Z",
+    "created_at": "2015-07-04T13:17:42Z",
+    "published_at": "2015-07-06T14:00:19Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java7/releases/assets/582162",
-        "id": 582162,
+        "url": "https://api.github.com/repos/droboports/java7/releases/assets/687994",
+        "id": 687994,
         "name": "java7.tgz",
-        "label": null,
+        "label": "",
         "uploader": {
           "login": "ricardopadilha",
           "id": 1210756,
@@ -126,12 +126,12 @@
           "type": "User",
           "site_admin": false
         },
-        "content_type": "application/octet-stream",
+        "content_type": "application/zip",
         "state": "uploaded",
-        "size": 34007907,
-        "download_count": 7,
-        "created_at": "2015-05-14T18:51:49Z",
-        "updated_at": "2015-05-14T18:53:10Z",
+        "size": 34008070,
+        "download_count": 17,
+        "created_at": "2015-07-06T13:58:58Z",
+        "updated_at": "2015-07-06T14:00:15Z",
         "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.75.13/java7.tgz"
       }
     ],
@@ -142,7 +142,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java7/releases/722763",
     "assets_url": "https://api.github.com/repos/droboports/java7/releases/722763/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/722763/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/722763/assets{?name,label}",
     "html_url": "https://github.com/droboports/java7/releases/tag/v7.71-fs",
     "id": 722763,
     "tag_name": "v7.71-fs",
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 33539108,
-        "download_count": 57,
+        "download_count": 58,
         "created_at": "2014-11-21T09:00:21Z",
         "updated_at": "2014-11-21T09:01:11Z",
         "browser_download_url": "https://github.com/droboports/java7/releases/download/v7.71-fs/java7.tgz"
@@ -212,7 +212,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java7/releases/720945",
     "assets_url": "https://api.github.com/repos/droboports/java7/releases/720945/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/720945/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java7/releases/720945/assets{?name,label}",
     "html_url": "https://github.com/droboports/java7/releases/tag/v7.71",
     "id": 720945,
     "tag_name": "v7.71",

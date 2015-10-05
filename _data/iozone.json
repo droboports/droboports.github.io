@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/iozone/releases/732670",
     "assets_url": "https://api.github.com/repos/droboports/iozone/releases/732670/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/iozone/releases/732670/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/iozone/releases/732670/assets{?name,label}",
     "html_url": "https://github.com/droboports/iozone/releases/tag/v3.429-fs",
     "id": 732670,
     "tag_name": "v3.429-fs",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 232591,
-        "download_count": 25,
+        "download_count": 36,
         "created_at": "2014-11-25T16:25:20Z",
         "updated_at": "2014-11-25T16:25:27Z",
         "browser_download_url": "https://github.com/droboports/iozone/releases/download/v3.429-fs/iozone.tgz"
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/iozone/releases/732654",
     "assets_url": "https://api.github.com/repos/droboports/iozone/releases/732654/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/iozone/releases/732654/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/iozone/releases/732654/assets{?name,label}",
     "html_url": "https://github.com/droboports/iozone/releases/tag/v3.429",
     "id": 732654,
     "tag_name": "v3.429",
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 198593,
-        "download_count": 75,
+        "download_count": 86,
         "created_at": "2014-11-25T16:21:26Z",
         "updated_at": "2014-11-25T16:21:32Z",
         "browser_download_url": "https://github.com/droboports/iozone/releases/download/v3.429/iozone.tgz"

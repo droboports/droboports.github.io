@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/locale/releases/1261406",
     "assets_url": "https://api.github.com/repos/droboports/locale/releases/1261406/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/1261406/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/1261406/assets{?name,label}",
     "html_url": "https://github.com/droboports/locale/releases/tag/v2.11.1-1",
     "id": 1261406,
     "tag_name": "v2.11.1-1",
@@ -29,14 +29,14 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-05-14T19:35:04Z",
-    "published_at": "2015-05-14T19:42:06Z",
+    "created_at": "2015-07-04T13:14:09Z",
+    "published_at": "2015-07-06T13:54:20Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/locale/releases/assets/582335",
-        "id": 582335,
+        "url": "https://api.github.com/repos/droboports/locale/releases/assets/687988",
+        "id": 687988,
         "name": "locale.tgz",
-        "label": null,
+        "label": "",
         "uploader": {
           "login": "ricardopadilha",
           "id": 1210756,
@@ -56,12 +56,12 @@
           "type": "User",
           "site_admin": false
         },
-        "content_type": "application/octet-stream",
+        "content_type": "application/zip",
         "state": "uploaded",
-        "size": 3961187,
-        "download_count": 6,
-        "created_at": "2015-05-14T19:41:34Z",
-        "updated_at": "2015-05-14T19:41:51Z",
+        "size": 3960950,
+        "download_count": 316,
+        "created_at": "2015-07-06T13:54:07Z",
+        "updated_at": "2015-07-06T13:54:19Z",
         "browser_download_url": "https://github.com/droboports/locale/releases/download/v2.11.1-1/locale.tgz"
       }
     ],
@@ -72,13 +72,13 @@
   {
     "url": "https://api.github.com/repos/droboports/locale/releases/1261184",
     "assets_url": "https://api.github.com/repos/droboports/locale/releases/1261184/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/1261184/assets{?name}",
-    "html_url": "https://github.com/droboports/locale/releases/tag/v2.5.0-1-fs",
+    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/1261184/assets{?name,label}",
+    "html_url": "https://github.com/droboports/locale/releases/tag/untagged-ec5bce1367574787da7e",
     "id": 1261184,
     "tag_name": "v2.5.0-1-fs",
     "target_commitish": "drobofs",
     "name": "Locale 2.5.0-1 for DroboFS",
-    "draft": false,
+    "draft": true,
     "author": {
       "login": "ricardopadilha",
       "id": 1210756,
@@ -98,13 +98,13 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": true,
-    "created_at": "2015-05-14T19:42:38Z",
-    "published_at": "2015-05-14T19:45:00Z",
+    "prerelease": false,
+    "created_at": "2015-06-26T01:56:30Z",
+    "published_at": null,
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/locale/releases/assets/582340",
-        "id": 582340,
+        "url": "https://api.github.com/repos/droboports/locale/releases/assets/684996",
+        "id": 684996,
         "name": "locale.tgz",
         "label": null,
         "uploader": {
@@ -128,21 +128,21 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 3572675,
-        "download_count": 1,
-        "created_at": "2015-05-14T19:43:56Z",
-        "updated_at": "2015-05-14T19:44:10Z",
-        "browser_download_url": "https://github.com/droboports/locale/releases/download/v2.5.0-1-fs/locale.tgz"
+        "size": 3572795,
+        "download_count": 0,
+        "created_at": "2015-07-04T12:18:48Z",
+        "updated_at": "2015-07-04T12:19:02Z",
+        "browser_download_url": "https://github.com/droboports/locale/releases/download/untagged-ec5bce1367574787da7e/locale.tgz"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/droboports/locale/tarball/v2.5.0-1-fs",
-    "zipball_url": "https://api.github.com/repos/droboports/locale/zipball/v2.5.0-1-fs",
+    "tarball_url": null,
+    "zipball_url": null,
     "body": "By default this app adds support for en_US.UTF-8. If you need additional locales, please create an empty file inside `/mnt/DroboFS/Shares/DroboApps/locale/etc/locale.d/` named `${language}.${charmap}`. For example:\r\n\r\n```\r\ntouch /mnt/DroboFS/Shares/DroboApps/locale/etc/locale.d/pt_BR.UTF-8\r\n```\r\n\r\n...will add support for Brazilian portuguese in UTF-8 once locale is started/restarted.\r\n\r\nChangelog: improved scripts."
   },
   {
     "url": "https://api.github.com/repos/droboports/locale/releases/722937",
     "assets_url": "https://api.github.com/repos/droboports/locale/releases/722937/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/722937/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/722937/assets{?name,label}",
     "html_url": "https://github.com/droboports/locale/releases/tag/v2.5-fs",
     "id": 722937,
     "tag_name": "v2.5-fs",
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3559661,
-        "download_count": 94,
+        "download_count": 129,
         "created_at": "2014-11-21T10:37:03Z",
         "updated_at": "2014-11-21T10:37:12Z",
         "browser_download_url": "https://github.com/droboports/locale/releases/download/v2.5-fs/locale.tgz"
@@ -212,7 +212,7 @@
   {
     "url": "https://api.github.com/repos/droboports/locale/releases/722922",
     "assets_url": "https://api.github.com/repos/droboports/locale/releases/722922/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/722922/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/locale/releases/722922/assets{?name,label}",
     "html_url": "https://github.com/droboports/locale/releases/tag/v2.11.1",
     "id": 722922,
     "tag_name": "v2.11.1",
@@ -269,7 +269,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3945609,
-        "download_count": 241,
+        "download_count": 253,
         "created_at": "2014-11-21T10:33:40Z",
         "updated_at": "2014-11-21T10:33:49Z",
         "browser_download_url": "https://github.com/droboports/locale/releases/download/v2.11.1/locale.tgz"

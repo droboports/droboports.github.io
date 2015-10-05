@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/kernel-drobofs/releases/685686",
     "assets_url": "https://api.github.com/repos/droboports/kernel-drobofs/releases/685686/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/kernel-drobofs/releases/685686/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/kernel-drobofs/releases/685686/assets{?name,label}",
     "html_url": "https://github.com/droboports/kernel-drobofs/releases/tag/v2.6.22.18",
     "id": 685686,
     "tag_name": "v2.6.22.18",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 30128,
-        "download_count": 22,
+        "download_count": 24,
         "created_at": "2014-11-07T09:22:10Z",
         "updated_at": "2014-11-07T09:22:14Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/cfq-iosched.ko"
@@ -91,7 +91,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 11048,
-        "download_count": 12,
+        "download_count": 13,
         "created_at": "2014-11-07T09:22:10Z",
         "updated_at": "2014-11-07T09:22:13Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/deadline-iosched.ko"
@@ -123,7 +123,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 7033,
-        "download_count": 20,
+        "download_count": 24,
         "created_at": "2014-11-07T09:22:10Z",
         "updated_at": "2014-11-07T09:22:14Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/exportfs.ko"
@@ -155,7 +155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 69147,
-        "download_count": 20,
+        "download_count": 26,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:13Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/fuse.ko"
@@ -187,7 +187,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 20543,
-        "download_count": 18,
+        "download_count": 19,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:13Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/loop.ko"
@@ -219,7 +219,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 13387,
-        "download_count": 16,
+        "download_count": 21,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:12Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/nbd.ko"
@@ -251,7 +251,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 200034,
-        "download_count": 31,
+        "download_count": 36,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:12Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/nfs.ko"
@@ -283,7 +283,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 144343,
-        "download_count": 35,
+        "download_count": 39,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:11Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/nfsd.ko"
@@ -315,7 +315,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 228634,
-        "download_count": 22,
+        "download_count": 23,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:13Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/sunrpc.ko"
@@ -347,7 +347,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 14050,
-        "download_count": 19,
+        "download_count": 24,
         "created_at": "2014-11-07T09:22:09Z",
         "updated_at": "2014-11-07T09:22:10Z",
         "browser_download_url": "https://github.com/droboports/kernel-drobofs/releases/download/v2.6.22.18/tun.ko"

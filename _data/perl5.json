@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/perl5/releases/1167016",
     "assets_url": "https://api.github.com/repos/droboports/perl5/releases/1167016/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/perl5/releases/1167016/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/perl5/releases/1167016/assets{?name,label}",
     "html_url": "https://github.com/droboports/perl5/releases/tag/v5.20.2-fs",
     "id": 1167016,
     "tag_name": "v5.20.2-fs",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 17099987,
-        "download_count": 0,
+        "download_count": 26,
         "created_at": "2015-05-15T17:34:25Z",
         "updated_at": "2015-05-15T17:35:07Z",
         "browser_download_url": "https://github.com/droboports/perl5/releases/download/v5.20.2-fs/perl5.tgz"
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/perl5/releases/1166418",
     "assets_url": "https://api.github.com/repos/droboports/perl5/releases/1166418/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/perl5/releases/1166418/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/perl5/releases/1166418/assets{?name,label}",
     "html_url": "https://github.com/droboports/perl5/releases/tag/v5.20.2",
     "id": 1166418,
     "tag_name": "v5.20.2",
@@ -99,14 +99,14 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-05-15T17:22:21Z",
-    "published_at": "2015-05-15T17:23:40Z",
+    "created_at": "2015-07-09T01:42:29Z",
+    "published_at": "2015-07-09T01:43:56Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/perl5/releases/assets/584143",
-        "id": 584143,
+        "url": "https://api.github.com/repos/droboports/perl5/releases/assets/694604",
+        "id": 694604,
         "name": "perl5.tgz",
-        "label": null,
+        "label": "",
         "uploader": {
           "login": "ricardopadilha",
           "id": 1210756,
@@ -126,12 +126,12 @@
           "type": "User",
           "site_admin": false
         },
-        "content_type": "application/octet-stream",
+        "content_type": "application/zip",
         "state": "uploaded",
-        "size": 16874267,
-        "download_count": 0,
-        "created_at": "2015-05-15T17:20:33Z",
-        "updated_at": "2015-05-15T17:21:26Z",
+        "size": 16873359,
+        "download_count": 34,
+        "created_at": "2015-07-09T01:43:16Z",
+        "updated_at": "2015-07-09T01:43:55Z",
         "browser_download_url": "https://github.com/droboports/perl5/releases/download/v5.20.2/perl5.tgz"
       }
     ],

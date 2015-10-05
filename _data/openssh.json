@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/openssh/releases/1073068",
     "assets_url": "https://api.github.com/repos/droboports/openssh/releases/1073068/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/1073068/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/1073068/assets{?name,label}",
     "html_url": "https://github.com/droboports/openssh/releases/tag/v6.8-fs",
     "id": 1073068,
     "tag_name": "v6.8-fs",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3532797,
-        "download_count": 267,
+        "download_count": 670,
         "created_at": "2015-03-20T15:10:01Z",
         "updated_at": "2015-03-20T15:10:32Z",
         "browser_download_url": "https://github.com/droboports/openssh/releases/download/v6.8-fs/openssh.tgz"
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/openssh/releases/1070948",
     "assets_url": "https://api.github.com/repos/droboports/openssh/releases/1070948/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/1070948/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/1070948/assets{?name,label}",
     "html_url": "https://github.com/droboports/openssh/releases/tag/v6.8",
     "id": 1070948,
     "tag_name": "v6.8",
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3576345,
-        "download_count": 297,
+        "download_count": 972,
         "created_at": "2015-03-19T23:22:48Z",
         "updated_at": "2015-03-19T23:23:22Z",
         "browser_download_url": "https://github.com/droboports/openssh/releases/download/v6.8/openssh.tgz"
@@ -142,7 +142,7 @@
   {
     "url": "https://api.github.com/repos/droboports/openssh/releases/737968",
     "assets_url": "https://api.github.com/repos/droboports/openssh/releases/737968/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/737968/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/737968/assets{?name,label}",
     "html_url": "https://github.com/droboports/openssh/releases/tag/v6.7",
     "id": 737968,
     "tag_name": "v6.7",
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 3477647,
-        "download_count": 784,
+        "download_count": 789,
         "created_at": "2014-11-27T12:42:20Z",
         "updated_at": "2014-11-27T12:43:34Z",
         "browser_download_url": "https://github.com/droboports/openssh/releases/download/v6.7/openssh.tgz"
@@ -212,7 +212,7 @@
   {
     "url": "https://api.github.com/repos/droboports/openssh/releases/737967",
     "assets_url": "https://api.github.com/repos/droboports/openssh/releases/737967/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/737967/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/openssh/releases/737967/assets{?name,label}",
     "html_url": "https://github.com/droboports/openssh/releases/tag/v6.7-fs",
     "id": 737967,
     "tag_name": "v6.7-fs",

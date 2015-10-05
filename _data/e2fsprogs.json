@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752110",
     "assets_url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752110/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/e2fsprogs/releases/752110/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/e2fsprogs/releases/752110/assets{?name,label}",
     "html_url": "https://github.com/droboports/e2fsprogs/releases/tag/v1.42.12",
     "id": 752110,
     "tag_name": "v1.42.12",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 2012760,
-        "download_count": 52,
+        "download_count": 64,
         "created_at": "2014-12-03T12:29:38Z",
         "updated_at": "2014-12-03T12:29:44Z",
         "browser_download_url": "https://github.com/droboports/e2fsprogs/releases/download/v1.42.12/e2fsprogs.tgz"
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752104",
     "assets_url": "https://api.github.com/repos/droboports/e2fsprogs/releases/752104/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/e2fsprogs/releases/752104/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/e2fsprogs/releases/752104/assets{?name,label}",
     "html_url": "https://github.com/droboports/e2fsprogs/releases/tag/v1.42.12-fs",
     "id": 752104,
     "tag_name": "v1.42.12-fs",
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 1989954,
-        "download_count": 27,
+        "download_count": 35,
         "created_at": "2014-12-03T12:28:05Z",
         "updated_at": "2014-12-03T12:28:09Z",
         "browser_download_url": "https://github.com/droboports/e2fsprogs/releases/download/v1.42.12-fs/e2fsprogs.tgz"

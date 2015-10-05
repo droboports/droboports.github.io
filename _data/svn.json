@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://api.github.com/repos/droboports/svn/releases/1696989",
+    "assets_url": "https://api.github.com/repos/droboports/svn/releases/1696989/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/svn/releases/1696989/assets{?name,label}",
+    "html_url": "https://github.com/droboports/svn/releases/tag/v1.9.0",
+    "id": 1696989,
+    "tag_name": "v1.9.0",
+    "target_commitish": "master",
+    "name": "Subversion 1.9.0 for Drobo5N",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": false,
+    "created_at": "2015-08-20T02:49:19Z",
+    "published_at": "2015-08-20T02:53:50Z",
+    "assets": [
+      {
+        "url": "https://api.github.com/repos/droboports/svn/releases/assets/802436",
+        "id": 802436,
+        "name": "svn.tgz",
+        "label": "",
+        "uploader": {
+          "login": "ricardopadilha",
+          "id": 1210756,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ricardopadilha",
+          "html_url": "https://github.com/ricardopadilha",
+          "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+          "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+          "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+          "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+          "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "content_type": "application/zip",
+        "state": "uploaded",
+        "size": 5146551,
+        "download_count": 0,
+        "created_at": "2015-08-20T02:53:36Z",
+        "updated_at": "2015-08-20T02:53:49Z",
+        "browser_download_url": "https://github.com/droboports/svn/releases/download/v1.9.0/svn.tgz"
+      }
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/svn/tarball/v1.9.0",
+    "zipball_url": "https://api.github.com/repos/droboports/svn/zipball/v1.9.0",
+    "body": "This is a command-line app. To use it please enable SSH access using either the official [Dropbear SSH server](http://www.drobo.com/drobo-solutions/drobo-apps/) or [OpenSSH](https://github.com/droboports/openssh)."
+  }
+]

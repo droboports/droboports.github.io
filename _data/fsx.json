@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/fsx/releases/831712",
     "assets_url": "https://api.github.com/repos/droboports/fsx/releases/831712/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/fsx/releases/831712/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/fsx/releases/831712/assets{?name,label}",
     "html_url": "https://github.com/droboports/fsx/releases/tag/v1.0.0-fs",
     "id": 831712,
     "tag_name": "v1.0.0-fs",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 12876,
-        "download_count": 7,
+        "download_count": 12,
         "created_at": "2015-01-07T16:28:35Z",
         "updated_at": "2015-01-07T16:28:37Z",
         "browser_download_url": "https://github.com/droboports/fsx/releases/download/v1.0.0-fs/fsx.tgz"
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/fsx/releases/831645",
     "assets_url": "https://api.github.com/repos/droboports/fsx/releases/831645/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/fsx/releases/831645/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/fsx/releases/831645/assets{?name,label}",
     "html_url": "https://github.com/droboports/fsx/releases/tag/v1.0.0",
     "id": 831645,
     "tag_name": "v1.0.0",
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 12747,
-        "download_count": 26,
+        "download_count": 34,
         "created_at": "2015-01-07T16:09:33Z",
         "updated_at": "2015-01-07T16:09:35Z",
         "browser_download_url": "https://github.com/droboports/fsx/releases/download/v1.0.0/fsx.tgz"

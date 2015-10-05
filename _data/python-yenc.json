@@ -1,8 +1,78 @@
 [
   {
+    "url": "https://api.github.com/repos/droboports/python-yenc/releases/1468019",
+    "assets_url": "https://api.github.com/repos/droboports/python-yenc/releases/1468019/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/python-yenc/releases/1468019/assets{?name,label}",
+    "html_url": "https://github.com/droboports/python-yenc/releases/tag/v0.4.0-fs",
+    "id": 1468019,
+    "tag_name": "v0.4.0-fs",
+    "target_commitish": "drobofs",
+    "name": "yEnc 0.4.0 for DroboFS",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": true,
+    "created_at": "2015-06-27T02:23:16Z",
+    "published_at": "2015-06-27T02:25:33Z",
+    "assets": [
+      {
+        "url": "https://api.github.com/repos/droboports/python-yenc/releases/assets/670669",
+        "id": 670669,
+        "name": "yenc-0.4.0-py2.7-linux-armv5tejl.egg",
+        "label": null,
+        "uploader": {
+          "login": "ricardopadilha",
+          "id": 1210756,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ricardopadilha",
+          "html_url": "https://github.com/ricardopadilha",
+          "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+          "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+          "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+          "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+          "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "content_type": "application/octet-stream",
+        "state": "uploaded",
+        "size": 20256,
+        "download_count": 1,
+        "created_at": "2015-06-27T02:25:21Z",
+        "updated_at": "2015-06-27T02:25:23Z",
+        "browser_download_url": "https://github.com/droboports/python-yenc/releases/download/v0.4.0-fs/yenc-0.4.0-py2.7-linux-armv5tejl.egg"
+      }
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/python-yenc/tarball/v0.4.0-fs",
+    "zipball_url": "https://api.github.com/repos/droboports/python-yenc/zipball/v0.4.0-fs",
+    "body": "Compiled for python 2.7.10."
+  },
+  {
     "url": "https://api.github.com/repos/droboports/python-yenc/releases/598818",
     "assets_url": "https://api.github.com/repos/droboports/python-yenc/releases/598818/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/python-yenc/releases/598818/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/python-yenc/releases/598818/assets{?name,label}",
     "html_url": "https://github.com/droboports/python-yenc/releases/tag/v0.4.0",
     "id": 598818,
     "tag_name": "v0.4.0",
@@ -29,12 +99,12 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2014-10-02T13:11:39Z",
-    "published_at": "2014-10-02T13:49:37Z",
+    "created_at": "2015-06-27T01:38:40Z",
+    "published_at": "2015-06-27T01:41:01Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/python-yenc/releases/assets/256699",
-        "id": 256699,
+        "url": "https://api.github.com/repos/droboports/python-yenc/releases/assets/670630",
+        "id": 670630,
         "name": "yenc-0.4.0-py2.7-linux-armv7l.egg",
         "label": null,
         "uploader": {
@@ -58,15 +128,15 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 20700,
-        "download_count": 39,
-        "created_at": "2014-10-02T14:49:14Z",
-        "updated_at": "2014-10-02T14:49:14Z",
+        "size": 20622,
+        "download_count": 7,
+        "created_at": "2015-06-27T01:40:56Z",
+        "updated_at": "2015-06-27T01:40:57Z",
         "browser_download_url": "https://github.com/droboports/python-yenc/releases/download/v0.4.0/yenc-0.4.0-py2.7-linux-armv7l.egg"
       }
     ],
     "tarball_url": "https://api.github.com/repos/droboports/python-yenc/tarball/v0.4.0",
     "zipball_url": "https://api.github.com/repos/droboports/python-yenc/zipball/v0.4.0",
-    "body": ""
+    "body": "Compiled for python 2.7.10."
   }
 ]

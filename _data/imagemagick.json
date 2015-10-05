@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/imagemagick/releases/982261",
     "assets_url": "https://api.github.com/repos/droboports/imagemagick/releases/982261/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/imagemagick/releases/982261/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/imagemagick/releases/982261/assets{?name,label}",
     "html_url": "https://github.com/droboports/imagemagick/releases/tag/v6.9.0-7-fs",
     "id": 982261,
     "tag_name": "v6.9.0-7-fs",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 7209839,
-        "download_count": 13,
+        "download_count": 25,
         "created_at": "2015-02-24T13:08:21Z",
         "updated_at": "2015-02-24T13:09:20Z",
         "browser_download_url": "https://github.com/droboports/imagemagick/releases/download/v6.9.0-7-fs/imagemagick.tgz"
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/imagemagick/releases/982247",
     "assets_url": "https://api.github.com/repos/droboports/imagemagick/releases/982247/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/imagemagick/releases/982247/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/imagemagick/releases/982247/assets{?name,label}",
     "html_url": "https://github.com/droboports/imagemagick/releases/tag/v6.9.0-7",
     "id": 982247,
     "tag_name": "v6.9.0-7",
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 7123147,
-        "download_count": 30,
+        "download_count": 45,
         "created_at": "2015-02-24T13:01:23Z",
         "updated_at": "2015-02-24T13:02:23Z",
         "browser_download_url": "https://github.com/droboports/imagemagick/releases/download/v6.9.0-7/imagemagick.tgz"

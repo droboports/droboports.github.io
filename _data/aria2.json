@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/aria2/releases/1031138",
     "assets_url": "https://api.github.com/repos/droboports/aria2/releases/1031138/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/aria2/releases/1031138/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/aria2/releases/1031138/assets{?name,label}",
     "html_url": "https://github.com/droboports/aria2/releases/tag/v1.17.1-fs",
     "id": 1031138,
     "tag_name": "v1.17.1-fs",
@@ -28,13 +28,13 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": false,
-    "created_at": "2015-03-09T19:33:38Z",
-    "published_at": "2015-03-09T19:34:32Z",
+    "prerelease": true,
+    "created_at": "2015-06-26T00:04:34Z",
+    "published_at": "2015-06-26T00:36:54Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/aria2/releases/assets/461602",
-        "id": 461602,
+        "url": "https://api.github.com/repos/droboports/aria2/releases/assets/668385",
+        "id": 668385,
         "name": "aria2.tgz",
         "label": null,
         "uploader": {
@@ -58,21 +58,21 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 6230147,
-        "download_count": 24,
-        "created_at": "2015-03-09T19:32:04Z",
-        "updated_at": "2015-03-09T19:33:03Z",
+        "size": 6986658,
+        "download_count": 14,
+        "created_at": "2015-06-26T00:36:19Z",
+        "updated_at": "2015-06-26T00:36:44Z",
         "browser_download_url": "https://github.com/droboports/aria2/releases/download/v1.17.1-fs/aria2.tgz"
       }
     ],
     "tarball_url": "https://api.github.com/repos/droboports/aria2/tarball/v1.17.1-fs",
     "zipball_url": "https://api.github.com/repos/droboports/aria2/zipball/v1.17.1-fs",
-    "body": "Once installed, the aria2 web interface is reachable at `http://drobo-fs:6880/` using login `root`, password `root`. To change the web interface password, connect using SSH and type:\r\n```\r\ncd /mnt/DroboFS/Shares/DroboApps/aria2\r\n./libexec/web_server -A ./etc/htpasswd Aria2 root <new password>\r\n```\r\n"
+    "body": "Once installed, the aria2 web interface is reachable at `http://drobo-fs:6880/` using login `root`, password `root`. To change the web interface password, connect using SSH and type:\r\n```\r\ncd /mnt/DroboFS/Shares/DroboApps/aria2\r\n./libexec/web_server -A ./etc/htpasswd Aria2 root <new password>\r\n```\r\nYou can also change the aria2 RPC username and password by editing the files `/mnt/DroboFS/Shares/DroboApps/aria2/etc/aria2.conf` and `/mnt/DroboFS/Shares/DroboApps/aria2/www/configuration.js`.\r\n\r\n"
   },
   {
     "url": "https://api.github.com/repos/droboports/aria2/releases/1031117",
     "assets_url": "https://api.github.com/repos/droboports/aria2/releases/1031117/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/aria2/releases/1031117/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/aria2/releases/1031117/assets{?name,label}",
     "html_url": "https://github.com/droboports/aria2/releases/tag/v1.17.1",
     "id": 1031117,
     "tag_name": "v1.17.1",
@@ -99,14 +99,14 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-03-09T17:14:54Z",
-    "published_at": "2015-03-09T19:52:26Z",
+    "created_at": "2015-07-16T19:32:59Z",
+    "published_at": "2015-07-16T19:44:00Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/aria2/releases/assets/461623",
-        "id": 461623,
+        "url": "https://api.github.com/repos/droboports/aria2/releases/assets/712105",
+        "id": 712105,
         "name": "aria2.tgz",
-        "label": null,
+        "label": "",
         "uploader": {
           "login": "ricardopadilha",
           "id": 1210756,
@@ -126,17 +126,17 @@
           "type": "User",
           "site_admin": false
         },
-        "content_type": "application/octet-stream",
+        "content_type": "application/zip",
         "state": "uploaded",
-        "size": 5801007,
-        "download_count": 37,
-        "created_at": "2015-03-09T19:50:29Z",
-        "updated_at": "2015-03-09T19:51:46Z",
+        "size": 5247206,
+        "download_count": 25,
+        "created_at": "2015-07-16T19:43:43Z",
+        "updated_at": "2015-07-16T19:43:59Z",
         "browser_download_url": "https://github.com/droboports/aria2/releases/download/v1.17.1/aria2.tgz"
       }
     ],
     "tarball_url": "https://api.github.com/repos/droboports/aria2/tarball/v1.17.1",
     "zipball_url": "https://api.github.com/repos/droboports/aria2/zipball/v1.17.1",
-    "body": "Once installed, the aria2 web interface is reachable at `http://drobo-5n:6880/` using login `root`, password `root`. To change the web interface password, connect using SSH and type:\r\n```\r\ncd /mnt/DroboFS/Shares/DroboApps/aria2\r\n./libexec/web_server -A ./etc/htpasswd Aria2 root <new password>\r\n```\r\n"
+    "body": "Once installed, the aria2 web interface is reachable at `http://drobo-5n:6880/` using login `root`, password `root`. To change the web interface password, connect using SSH and type:\r\n```\r\ncd /mnt/DroboFS/Shares/DroboApps/aria2\r\n./libexec/web_server -A ./etc/htpasswd Aria2 root <new password>\r\n```\r\nYou can also change the aria2 RPC username and password by editing the files `/mnt/DroboFS/Shares/DroboApps/aria2/etc/aria2.conf` and `/mnt/DroboFS/Shares/DroboApps/aria2/www/configuration.js`.\r\n"
   }
 ]

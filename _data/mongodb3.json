@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/mongodb3/releases/1301417",
     "assets_url": "https://api.github.com/repos/droboports/mongodb3/releases/1301417/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/mongodb3/releases/1301417/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/mongodb3/releases/1301417/assets{?name,label}",
     "html_url": "https://github.com/droboports/mongodb3/releases/tag/v3.0.2",
     "id": 1301417,
     "tag_name": "v3.0.2",

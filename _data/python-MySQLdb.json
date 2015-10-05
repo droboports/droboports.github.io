@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://api.github.com/repos/droboports/python-MySQLdb/releases/1573936",
+    "assets_url": "https://api.github.com/repos/droboports/python-MySQLdb/releases/1573936/assets",
+    "upload_url": "https://uploads.github.com/repos/droboports/python-MySQLdb/releases/1573936/assets{?name,label}",
+    "html_url": "https://github.com/droboports/python-MySQLdb/releases/tag/v1.2.4b4",
+    "id": 1573936,
+    "tag_name": "v1.2.4b4",
+    "target_commitish": "master",
+    "name": "MySQL-python 1.2.4b4 for Drobo5N",
+    "draft": false,
+    "author": {
+      "login": "ricardopadilha",
+      "id": 1210756,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ricardopadilha",
+      "html_url": "https://github.com/ricardopadilha",
+      "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+      "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+      "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+      "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+      "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "prerelease": false,
+    "created_at": "2015-07-23T01:54:35Z",
+    "published_at": "2015-07-23T01:57:51Z",
+    "assets": [
+      {
+        "url": "https://api.github.com/repos/droboports/python-MySQLdb/releases/assets/738792",
+        "id": 738792,
+        "name": "MySQL_python-1.2.4b4-py2.7-linux-armv7l.egg",
+        "label": null,
+        "uploader": {
+          "login": "ricardopadilha",
+          "id": 1210756,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1210756?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ricardopadilha",
+          "html_url": "https://github.com/ricardopadilha",
+          "followers_url": "https://api.github.com/users/ricardopadilha/followers",
+          "following_url": "https://api.github.com/users/ricardopadilha/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ricardopadilha/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ricardopadilha/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ricardopadilha/subscriptions",
+          "organizations_url": "https://api.github.com/users/ricardopadilha/orgs",
+          "repos_url": "https://api.github.com/users/ricardopadilha/repos",
+          "events_url": "https://api.github.com/users/ricardopadilha/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ricardopadilha/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "content_type": "application/octet-stream",
+        "state": "uploaded",
+        "size": 2478582,
+        "download_count": 2,
+        "created_at": "2015-07-23T01:57:28Z",
+        "updated_at": "2015-07-23T01:57:46Z",
+        "browser_download_url": "https://github.com/droboports/python-MySQLdb/releases/download/v1.2.4b4/MySQL_python-1.2.4b4-py2.7-linux-armv7l.egg"
+      }
+    ],
+    "tarball_url": "https://api.github.com/repos/droboports/python-MySQLdb/tarball/v1.2.4b4",
+    "zipball_url": "https://api.github.com/repos/droboports/python-MySQLdb/zipball/v1.2.4b4",
+    "body": "Compiled for python 2.7.10."
+  }
+]

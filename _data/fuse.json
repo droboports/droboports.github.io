@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/fuse/releases/736087",
     "assets_url": "https://api.github.com/repos/droboports/fuse/releases/736087/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/736087/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/736087/assets{?name,label}",
     "html_url": "https://github.com/droboports/fuse/releases/tag/v2.9.3u1-fs",
     "id": 736087,
     "tag_name": "v2.9.3u1-fs",
@@ -59,7 +59,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 237401,
-        "download_count": 35,
+        "download_count": 45,
         "created_at": "2014-11-26T16:55:41Z",
         "updated_at": "2014-11-26T16:55:48Z",
         "browser_download_url": "https://github.com/droboports/fuse/releases/download/v2.9.3u1-fs/fuse.tgz"
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/fuse/releases/736062",
     "assets_url": "https://api.github.com/repos/droboports/fuse/releases/736062/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/736062/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/736062/assets{?name,label}",
     "html_url": "https://github.com/droboports/fuse/releases/tag/v2.9.3u1",
     "id": 736062,
     "tag_name": "v2.9.3u1",
@@ -129,7 +129,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 792420,
-        "download_count": 81,
+        "download_count": 95,
         "created_at": "2014-11-26T16:48:22Z",
         "updated_at": "2014-11-26T16:48:39Z",
         "browser_download_url": "https://github.com/droboports/fuse/releases/download/v2.9.3u1/fuse.tgz"
@@ -142,7 +142,7 @@
   {
     "url": "https://api.github.com/repos/droboports/fuse/releases/687668",
     "assets_url": "https://api.github.com/repos/droboports/fuse/releases/687668/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/687668/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/687668/assets{?name,label}",
     "html_url": "https://github.com/droboports/fuse/releases/tag/v2.9.3-fs",
     "id": 687668,
     "tag_name": "v2.9.3-fs",
@@ -212,7 +212,7 @@
   {
     "url": "https://api.github.com/repos/droboports/fuse/releases/687611",
     "assets_url": "https://api.github.com/repos/droboports/fuse/releases/687611/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/687611/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/fuse/releases/687611/assets{?name,label}",
     "html_url": "https://github.com/droboports/fuse/releases/tag/v2.9.3",
     "id": 687611,
     "tag_name": "v2.9.3",

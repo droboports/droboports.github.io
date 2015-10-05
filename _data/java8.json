@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java8/releases/1260801",
     "assets_url": "https://api.github.com/repos/droboports/java8/releases/1260801/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/1260801/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/1260801/assets{?name,label}",
     "html_url": "https://github.com/droboports/java8/releases/tag/v8.33.05",
     "id": 1260801,
     "tag_name": "v8.33.05",
@@ -29,14 +29,14 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-05-14T19:14:16Z",
-    "published_at": "2015-05-14T19:16:20Z",
+    "created_at": "2015-07-04T13:17:48Z",
+    "published_at": "2015-07-06T14:06:12Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java8/releases/assets/582250",
-        "id": 582250,
+        "url": "https://api.github.com/repos/droboports/java8/releases/assets/688021",
+        "id": 688021,
         "name": "java8.tgz",
-        "label": null,
+        "label": "",
         "uploader": {
           "login": "ricardopadilha",
           "id": 1210756,
@@ -56,12 +56,12 @@
           "type": "User",
           "site_admin": false
         },
-        "content_type": "application/octet-stream",
+        "content_type": "application/zip",
         "state": "uploaded",
-        "size": 35540983,
-        "download_count": 11,
-        "created_at": "2015-05-14T19:13:43Z",
-        "updated_at": "2015-05-14T19:15:37Z",
+        "size": 35541268,
+        "download_count": 363,
+        "created_at": "2015-07-06T14:04:51Z",
+        "updated_at": "2015-07-06T14:06:10Z",
         "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.33.05/java8.tgz"
       }
     ],
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java8/releases/1260797",
     "assets_url": "https://api.github.com/repos/droboports/java8/releases/1260797/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/1260797/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/1260797/assets{?name,label}",
     "html_url": "https://github.com/droboports/java8/releases/tag/v8.33.05-fs",
     "id": 1260797,
     "tag_name": "v8.33.05-fs",
@@ -98,13 +98,13 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": true,
-    "created_at": "2015-05-14T19:16:39Z",
-    "published_at": "2015-05-14T19:27:15Z",
+    "prerelease": false,
+    "created_at": "2015-06-26T01:38:57Z",
+    "published_at": "2015-07-02T04:09:07Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/java8/releases/assets/582265",
-        "id": 582265,
+        "url": "https://api.github.com/repos/droboports/java8/releases/assets/680378",
+        "id": 680378,
         "name": "java8.tgz",
         "label": null,
         "uploader": {
@@ -128,10 +128,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 35540986,
-        "download_count": 2,
-        "created_at": "2015-05-14T19:23:54Z",
-        "updated_at": "2015-05-14T19:25:13Z",
+        "size": 35541129,
+        "download_count": 54,
+        "created_at": "2015-07-02T04:06:46Z",
+        "updated_at": "2015-07-02T04:09:00Z",
         "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.33.05-fs/java8.tgz"
       }
     ],
@@ -142,7 +142,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java8/releases/722768",
     "assets_url": "https://api.github.com/repos/droboports/java8/releases/722768/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/722768/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/722768/assets{?name,label}",
     "html_url": "https://github.com/droboports/java8/releases/tag/v8.6-fs",
     "id": 722768,
     "tag_name": "v8.6-fs",
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 35647000,
-        "download_count": 56,
+        "download_count": 59,
         "created_at": "2014-11-21T09:01:02Z",
         "updated_at": "2014-11-21T09:01:29Z",
         "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.6-fs/java8.tgz"
@@ -212,7 +212,7 @@
   {
     "url": "https://api.github.com/repos/droboports/java8/releases/720951",
     "assets_url": "https://api.github.com/repos/droboports/java8/releases/720951/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/720951/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/java8/releases/720951/assets{?name,label}",
     "html_url": "https://github.com/droboports/java8/releases/tag/v8.6",
     "id": 720951,
     "tag_name": "v8.6",
@@ -269,7 +269,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 37769179,
-        "download_count": 177,
+        "download_count": 191,
         "created_at": "2014-11-20T17:04:13Z",
         "updated_at": "2014-11-20T17:04:55Z",
         "browser_download_url": "https://github.com/droboports/java8/releases/download/v8.6/java8.tgz"

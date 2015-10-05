@@ -2,7 +2,7 @@
   {
     "url": "https://api.github.com/repos/droboports/transmission/releases/868255",
     "assets_url": "https://api.github.com/repos/droboports/transmission/releases/868255/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868255/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868255/assets{?name,label}",
     "html_url": "https://github.com/droboports/transmission/releases/tag/v2.84-fs",
     "id": 868255,
     "tag_name": "v2.84-fs",
@@ -28,13 +28,13 @@
       "type": "User",
       "site_admin": false
     },
-    "prerelease": false,
-    "created_at": "2015-01-23T23:25:43Z",
-    "published_at": "2015-01-23T23:51:10Z",
+    "prerelease": true,
+    "created_at": "2015-06-26T17:49:43Z",
+    "published_at": "2015-06-26T17:50:18Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/392269",
-        "id": 392269,
+        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/669974",
+        "id": 669974,
         "name": "transmission.tgz",
         "label": null,
         "uploader": {
@@ -58,10 +58,10 @@
         },
         "content_type": "application/octet-stream",
         "state": "uploaded",
-        "size": 15423288,
-        "download_count": 136,
-        "created_at": "2015-01-23T23:47:55Z",
-        "updated_at": "2015-01-23T23:50:41Z",
+        "size": 15777404,
+        "download_count": 73,
+        "created_at": "2015-06-26T17:49:12Z",
+        "updated_at": "2015-06-26T17:50:01Z",
         "browser_download_url": "https://github.com/droboports/transmission/releases/download/v2.84-fs/transmission.tgz"
       }
     ],
@@ -72,7 +72,7 @@
   {
     "url": "https://api.github.com/repos/droboports/transmission/releases/868161",
     "assets_url": "https://api.github.com/repos/droboports/transmission/releases/868161/assets",
-    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868161/assets{?name}",
+    "upload_url": "https://uploads.github.com/repos/droboports/transmission/releases/868161/assets{?name,label}",
     "html_url": "https://github.com/droboports/transmission/releases/tag/v2.84",
     "id": 868161,
     "tag_name": "v2.84",
@@ -99,14 +99,14 @@
       "site_admin": false
     },
     "prerelease": false,
-    "created_at": "2015-01-23T23:24:50Z",
-    "published_at": "2015-01-23T23:44:03Z",
+    "created_at": "2015-07-16T19:42:56Z",
+    "published_at": "2015-07-16T20:43:40Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/392265",
-        "id": 392265,
+        "url": "https://api.github.com/repos/droboports/transmission/releases/assets/712210",
+        "id": 712210,
         "name": "transmission.tgz",
-        "label": null,
+        "label": "",
         "uploader": {
           "login": "ricardopadilha",
           "id": 1210756,
@@ -126,12 +126,12 @@
           "type": "User",
           "site_admin": false
         },
-        "content_type": "application/octet-stream",
+        "content_type": "application/zip",
         "state": "uploaded",
-        "size": 15860822,
-        "download_count": 160,
-        "created_at": "2015-01-23T23:40:19Z",
-        "updated_at": "2015-01-23T23:43:20Z",
+        "size": 16206692,
+        "download_count": 51,
+        "created_at": "2015-07-16T20:43:04Z",
+        "updated_at": "2015-07-16T20:43:38Z",
         "browser_download_url": "https://github.com/droboports/transmission/releases/download/v2.84/transmission.tgz"
       }
     ],
